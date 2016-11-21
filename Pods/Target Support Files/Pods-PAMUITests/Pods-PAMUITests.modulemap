@@ -1,0 +1,6 @@
+framework module Pods_PAMUITests {
+  umbrella header "Pods-PAMUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}

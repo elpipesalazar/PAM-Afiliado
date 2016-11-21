@@ -1,0 +1,1048 @@
+{
+  "warnings": [
+    {
+      "file": "/Users/franzzite/Documents/Xcode Projects/PAM/PAM/AboutViewController.swift",
+      "line": 17,
+      "symbol": "AboutViewController.menuButton",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/franzzite/Documents/Xcode Projects/PAM/PAM/AboutViewController.swift",
+      "line": 18,
+      "symbol": "AboutViewController.webview",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/franzzite/Documents/Xcode Projects/PAM/PAM/AppDelegate.swift",
+      "line": 15,
+      "symbol": "AppDelegate",
+      "symbol_kind": "source.lang.swift.decl.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/franzzite/Documents/Xcode Projects/PAM/PAM/AppDelegate.swift",
+      "line": 17,
+      "symbol": "AppDelegate.prefs",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/franzzite/Documents/Xcode Projects/PAM/PAM/AppDelegate.swift",
+      "line": 19,
+      "symbol": "AppDelegate.window",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/franzzite/Documents/Xcode Projects/PAM/PAM/AppDelegate.swift",
+      "line": 21,
+      "symbol": "AppDelegate.application(_:didFinishLaunchingWithOptions:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/franzzite/Documents/Xcode Projects/PAM/PAM/AppDelegate.swift",
+      "line": 53,
+      "symbol": "AppDelegate.applicationWillResignActive(_:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/franzzite/Documents/Xcode Projects/PAM/PAM/AppDelegate.swift",
+      "line": 58,
+      "symbol": "AppDelegate.applicationDidEnterBackground(_:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/franzzite/Documents/Xcode Projects/PAM/PAM/AppDelegate.swift",
+      "line": 64,
+      "symbol": "AppDelegate.applicationWillEnterForeground(_:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/franzzite/Documents/Xcode Projects/PAM/PAM/AppDelegate.swift",
+      "line": 68,
+      "symbol": "AppDelegate.applicationDidBecomeActive(_:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/franzzite/Documents/Xcode Projects/PAM/PAM/AppDelegate.swift",
+      "line": 74,
+      "symbol": "AppDelegate.applicationWillTerminate(_:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/franzzite/Documents/Xcode Projects/PAM/PAM/AppDelegate.swift",
+      "line": 79,
+      "symbol": "AppDelegate.application(_:didRegisterForRemoteNotificationsWithDeviceToken:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/franzzite/Documents/Xcode Projects/PAM/PAM/AppDelegate.swift",
+      "line": 91,
+      "symbol": "AppDelegate.application(_:didReceiveRemoteNotification:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/franzzite/Documents/Xcode Projects/PAM/PAM/AppDelegate.swift",
+      "line": 163,
+      "symbol": "AppDelegate.application(_:didFailToRegisterForRemoteNotificationsWithError:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/franzzite/Documents/Xcode Projects/PAM/PAM/AppDelegate.swift",
+      "line": 169,
+      "symbol": "UIColor.toImage()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/franzzite/Documents/Xcode Projects/PAM/PAM/AppDelegate.swift",
+      "line": 181,
+      "symbol": "UIApplication.topViewController(_:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/franzzite/Documents/Xcode Projects/PAM/PAM/AssistanceItem.swift",
+      "line": 22,
+      "symbol": "AssistanceItem.id",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/franzzite/Documents/Xcode Projects/PAM/PAM/AssistanceItem.swift",
+      "line": 23,
+      "symbol": "AssistanceItem.name",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/franzzite/Documents/Xcode Projects/PAM/PAM/AssistanceItem.swift",
+      "line": 24,
+      "symbol": "AssistanceItem.totalEvents",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/franzzite/Documents/Xcode Projects/PAM/PAM/AssistanceItem.swift",
+      "line": 25,
+      "symbol": "AssistanceItem.available",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/franzzite/Documents/Xcode Projects/PAM/PAM/AssistanceList.swift",
+      "line": 55,
+      "symbol": "AssistanceList.tableView(_:numberOfRowsInSection:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/franzzite/Documents/Xcode Projects/PAM/PAM/AssistanceList.swift",
+      "line": 59,
+      "symbol": "AssistanceList.tableView(_:cellForRowAtIndexPath:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/franzzite/Documents/Xcode Projects/PAM/PAM/AssistanceViewCell.swift",
+      "line": 16,
+      "symbol": "AssistanceViewCell.name",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/franzzite/Documents/Xcode Projects/PAM/PAM/AssistanceViewCell.swift",
+      "line": 17,
+      "symbol": "AssistanceViewCell.quantity",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/franzzite/Documents/Xcode Projects/PAM/PAM/AssistsViewController.swift",
+      "line": 18,
+      "symbol": "AssistsViewController.tableView",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/franzzite/Documents/Xcode Projects/PAM/PAM/AssistsViewController.swift",
+      "line": 19,
+      "symbol": "AssistsViewController.backButton",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/franzzite/Documents/Xcode Projects/PAM/PAM/AssistsViewController.swift",
+      "line": 32,
+      "symbol": "AssistsViewController.assistId",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/franzzite/Documents/Xcode Projects/PAM/PAM/AssistsViewController.swift",
+      "line": 34,
+      "symbol": "AssistsViewController.esemergencia",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/franzzite/Documents/Xcode Projects/PAM/PAM/AssistsViewController.swift",
+      "line": 36,
+      "symbol": "AssistsViewController.phoneUser",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/franzzite/Documents/Xcode Projects/PAM/PAM/AssistsViewController.swift",
+      "line": 38,
+      "symbol": "AssistsViewController.addressUser",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/franzzite/Documents/Xcode Projects/PAM/PAM/ClientItem.swift",
+      "line": 21,
+      "symbol": "ClientItem.code",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/franzzite/Documents/Xcode Projects/PAM/PAM/ClientItem.swift",
+      "line": 22,
+      "symbol": "ClientItem.name",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/franzzite/Documents/Xcode Projects/PAM/PAM/ClientItem.swift",
+      "line": 23,
+      "symbol": "ClientItem.identification",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/franzzite/Documents/Xcode Projects/PAM/PAM/LoginViewController.swift",
+      "line": 18,
+      "symbol": "LoginViewController.usernameTextField",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/franzzite/Documents/Xcode Projects/PAM/PAM/LoginViewController.swift",
+      "line": 19,
+      "symbol": "LoginViewController.passwordTextField",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/franzzite/Documents/Xcode Projects/PAM/PAM/LoginViewController.swift",
+      "line": 20,
+      "symbol": "LoginViewController.loginButton",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/franzzite/Documents/Xcode Projects/PAM/PAM/LoginViewController.swift",
+      "line": 21,
+      "symbol": "LoginViewController.scrollView",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/franzzite/Documents/Xcode Projects/PAM/PAM/LoginViewController.swift",
+      "line": 22,
+      "symbol": "LoginViewController.validateAccountButton",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/franzzite/Documents/Xcode Projects/PAM/PAM/LoginViewController.swift",
+      "line": 23,
+      "symbol": "LoginViewController.contUsername",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/franzzite/Documents/Xcode Projects/PAM/PAM/LoginViewController.swift",
+      "line": 24,
+      "symbol": "LoginViewController.contPassword",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/franzzite/Documents/Xcode Projects/PAM/PAM/MGSwipeTableCell/Alerts.swift",
+      "line": 11,
+      "symbol": "Alerts",
+      "symbol_kind": "source.lang.swift.decl.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/franzzite/Documents/Xcode Projects/PAM/PAM/MGSwipeTableCell/Alerts.swift",
+      "line": 13,
+      "symbol": "Alerts.prefs",
+      "symbol_kind": "source.lang.swift.decl.var.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/franzzite/Documents/Xcode Projects/PAM/PAM/MGSwipeTableCell/Alerts.swift",
+      "line": 15,
+      "symbol": "Alerts.showSimpleAlert(_:title:message:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/franzzite/Documents/Xcode Projects/PAM/PAM/MGSwipeTableCell/Alerts.swift",
+      "line": 25,
+      "symbol": "Alerts.showCompleteAlert(_:title:message:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/franzzite/Documents/Xcode Projects/PAM/PAM/MGSwipeTableCell/Loading.swift",
+      "line": 12,
+      "symbol": "Loading",
+      "symbol_kind": "source.lang.swift.decl.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/franzzite/Documents/Xcode Projects/PAM/PAM/MGSwipeTableCell/Loading.swift",
+      "line": 15,
+      "symbol": "Loading.showLoading(_:offset:title:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/franzzite/Documents/Xcode Projects/PAM/PAM/MGSwipeTableCell/Loading.swift",
+      "line": 26,
+      "symbol": "Loading.hideLoading(_:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/franzzite/Documents/Xcode Projects/PAM/PAM/MapNavigationViewController.swift",
+      "line": 11,
+      "symbol": "MapNavigationViewController",
+      "symbol_kind": "source.lang.swift.decl.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/franzzite/Documents/Xcode Projects/PAM/PAM/MapNavigationViewController.swift",
+      "line": 13,
+      "symbol": "MapNavigationViewController.viewDidLoad()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/franzzite/Documents/Xcode Projects/PAM/PAM/MapNavigationViewController.swift",
+      "line": 19,
+      "symbol": "MapNavigationViewController.didReceiveMemoryWarning()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/franzzite/Documents/Xcode Projects/PAM/PAM/MapTrackingViewController.swift",
+      "line": 13,
+      "symbol": "MapTrackingViewController",
+      "symbol_kind": "source.lang.swift.decl.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/franzzite/Documents/Xcode Projects/PAM/PAM/MapTrackingViewController.swift",
+      "line": 14,
+      "symbol": "MapTrackingViewController.mapView",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/franzzite/Documents/Xcode Projects/PAM/PAM/MapTrackingViewController.swift",
+      "line": 15,
+      "symbol": "MapTrackingViewController.arrivalTime",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/franzzite/Documents/Xcode Projects/PAM/PAM/MapTrackingViewController.swift",
+      "line": 17,
+      "symbol": "MapTrackingViewController.trackingItem",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/franzzite/Documents/Xcode Projects/PAM/PAM/MapTrackingViewController.swift",
+      "line": 19,
+      "symbol": "MapTrackingViewController.prefs",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/franzzite/Documents/Xcode Projects/PAM/PAM/MapTrackingViewController.swift",
+      "line": 21,
+      "symbol": "MapTrackingViewController.viewDidLoad()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/franzzite/Documents/Xcode Projects/PAM/PAM/MapTrackingViewController.swift",
+      "line": 34,
+      "symbol": "MapTrackingViewController.viewDidAppear(_:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/franzzite/Documents/Xcode Projects/PAM/PAM/MapTrackingViewController.swift",
+      "line": 64,
+      "symbol": "MapTrackingViewController.didReceiveMemoryWarning()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/franzzite/Documents/Xcode Projects/PAM/PAM/MapTrackingViewController.swift",
+      "line": 69,
+      "symbol": "MapTrackingViewController.backView(_:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/franzzite/Documents/Xcode Projects/PAM/PAM/MapTrackingViewController.swift",
+      "line": 75,
+      "symbol": "MapTrackingViewController.arrivalProv()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/franzzite/Documents/Xcode Projects/PAM/PAM/MapTrackingViewController.swift",
+      "line": 109,
+      "symbol": "MapTrackingViewController.showLoading()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/franzzite/Documents/Xcode Projects/PAM/PAM/MapTrackingViewController.swift",
+      "line": 116,
+      "symbol": "MapTrackingViewController.hideLoading()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/franzzite/Documents/Xcode Projects/PAM/PAM/MapTrackingViewController.swift",
+      "line": 121,
+      "symbol": "MapTrackingViewController.showAlert(_:message:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/franzzite/Documents/Xcode Projects/PAM/PAM/MapTrackingViewController.swift",
+      "line": 131,
+      "symbol": "MapTrackingViewController.showAlertCancel(_:message:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/franzzite/Documents/Xcode Projects/PAM/PAM/MapTrackingViewController.swift",
+      "line": 141,
+      "symbol": "MapTrackingViewController.showArrival(_:message:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/franzzite/Documents/Xcode Projects/PAM/PAM/MenuViewController.swift",
+      "line": 11,
+      "symbol": "MenuViewController",
+      "symbol_kind": "source.lang.swift.decl.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/franzzite/Documents/Xcode Projects/PAM/PAM/MenuViewController.swift",
+      "line": 12,
+      "symbol": "MenuViewController.menu",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/franzzite/Documents/Xcode Projects/PAM/PAM/MenuViewController.swift",
+      "line": 14,
+      "symbol": "MenuViewController.viewDidLoad()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/franzzite/Documents/Xcode Projects/PAM/PAM/MenuViewController.swift",
+      "line": 22,
+      "symbol": "MenuViewController.didReceiveMemoryWarning()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/franzzite/Documents/Xcode Projects/PAM/PAM/MenuViewController.swift",
+      "line": 29,
+      "symbol": "MenuViewController.tableView(_:shouldHighlightRowAtIndexPath:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/franzzite/Documents/Xcode Projects/PAM/PAM/MenuViewController.swift",
+      "line": 49,
+      "symbol": "MenuViewController.tableView(_:didSelectRowAtIndexPath:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/franzzite/Documents/Xcode Projects/PAM/PAM/PlanItem.swift",
+      "line": 21,
+      "symbol": "PlanItem.id",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/franzzite/Documents/Xcode Projects/PAM/PAM/PlanItem.swift",
+      "line": 22,
+      "symbol": "PlanItem.name",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/franzzite/Documents/Xcode Projects/PAM/PAM/PlanItem.swift",
+      "line": 23,
+      "symbol": "PlanItem.isVip",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/franzzite/Documents/Xcode Projects/PAM/PAM/PlanList.swift",
+      "line": 55,
+      "symbol": "PlanList.tableView(_:numberOfRowsInSection:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/franzzite/Documents/Xcode Projects/PAM/PAM/PlanList.swift",
+      "line": 59,
+      "symbol": "PlanList.tableView(_:cellForRowAtIndexPath:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/franzzite/Documents/Xcode Projects/PAM/PAM/PlanViewCell.swift",
+      "line": 16,
+      "symbol": "PlanViewCell.name",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/franzzite/Documents/Xcode Projects/PAM/PAM/PlanViewCell.swift",
+      "line": 17,
+      "symbol": "PlanViewCell.vip",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/franzzite/Documents/Xcode Projects/PAM/PAM/PlansViewController.swift",
+      "line": 17,
+      "symbol": "PlansViewController.tableView",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/franzzite/Documents/Xcode Projects/PAM/PAM/PlansViewController.swift",
+      "line": 18,
+      "symbol": "PlansViewController.menuButton",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/franzzite/Documents/Xcode Projects/PAM/PAM/ProgrammingViewController.swift",
+      "line": 12,
+      "symbol": "ProgrammingViewController",
+      "symbol_kind": "source.lang.swift.decl.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/franzzite/Documents/Xcode Projects/PAM/PAM/ProgrammingViewController.swift",
+      "line": 14,
+      "symbol": "ProgrammingViewController.scrollView",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/franzzite/Documents/Xcode Projects/PAM/PAM/ProgrammingViewController.swift",
+      "line": 15,
+      "symbol": "ProgrammingViewController.dateTextField",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/franzzite/Documents/Xcode Projects/PAM/PAM/ProgrammingViewController.swift",
+      "line": 16,
+      "symbol": "ProgrammingViewController.phoneTextField",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/franzzite/Documents/Xcode Projects/PAM/PAM/ProgrammingViewController.swift",
+      "line": 17,
+      "symbol": "ProgrammingViewController.addressTextField",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/franzzite/Documents/Xcode Projects/PAM/PAM/ProgrammingViewController.swift",
+      "line": 18,
+      "symbol": "ProgrammingViewController.descriptionText",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/franzzite/Documents/Xcode Projects/PAM/PAM/ProgrammingViewController.swift",
+      "line": 19,
+      "symbol": "ProgrammingViewController.backButton",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/franzzite/Documents/Xcode Projects/PAM/PAM/ProgrammingViewController.swift",
+      "line": 39,
+      "symbol": "ProgrammingViewController.esemergenciaVc",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/franzzite/Documents/Xcode Projects/PAM/PAM/ProgrammingViewController.swift",
+      "line": 418,
+      "symbol": "NSDate.formattedDate",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/franzzite/Documents/Xcode Projects/PAM/PAM/ProgrammingViewController.swift",
+      "line": 424,
+      "symbol": "NSDate.formattedHour",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/franzzite/Documents/Xcode Projects/PAM/PAM/Reachability.swift",
+      "line": 12,
+      "symbol": "Reachability",
+      "symbol_kind": "source.lang.swift.decl.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/franzzite/Documents/Xcode Projects/PAM/PAM/Reachability.swift",
+      "line": 14,
+      "symbol": "Reachability.isConnectedToNetwork()",
+      "symbol_kind": "source.lang.swift.decl.function.method.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/franzzite/Documents/Xcode Projects/PAM/PAM/RegisterViewController.swift",
+      "line": 17,
+      "symbol": "RegisterViewController.scrollView",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/franzzite/Documents/Xcode Projects/PAM/PAM/RegisterViewController.swift",
+      "line": 18,
+      "symbol": "RegisterViewController.emailTextField",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/franzzite/Documents/Xcode Projects/PAM/PAM/RegisterViewController.swift",
+      "line": 19,
+      "symbol": "RegisterViewController.passwordTextField",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/franzzite/Documents/Xcode Projects/PAM/PAM/RegisterViewController.swift",
+      "line": 20,
+      "symbol": "RegisterViewController.clientsTextField",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/franzzite/Documents/Xcode Projects/PAM/PAM/RegisterViewController.swift",
+      "line": 21,
+      "symbol": "RegisterViewController.cveAfiliadoText",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/franzzite/Documents/Xcode Projects/PAM/PAM/RegisterViewController.swift",
+      "line": 22,
+      "symbol": "RegisterViewController.phoneTextField",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/franzzite/Documents/Xcode Projects/PAM/PAM/RegisterViewController.swift",
+      "line": 23,
+      "symbol": "RegisterViewController.usernameTextField",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/franzzite/Documents/Xcode Projects/PAM/PAM/SocketIOManager.swift",
+      "line": 12,
+      "symbol": "SocketIOManager",
+      "symbol_kind": "source.lang.swift.decl.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/franzzite/Documents/Xcode Projects/PAM/PAM/SocketIOManager.swift",
+      "line": 13,
+      "symbol": "SocketIOManager.sharedInstance",
+      "symbol_kind": "source.lang.swift.decl.var.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/franzzite/Documents/Xcode Projects/PAM/PAM/SocketIOManager.swift",
+      "line": 15,
+      "symbol": "SocketIOManager.init()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/franzzite/Documents/Xcode Projects/PAM/PAM/SocketIOManager.swift",
+      "line": 19,
+      "symbol": "SocketIOManager.socket",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/franzzite/Documents/Xcode Projects/PAM/PAM/SocketIOManager.swift",
+      "line": 21,
+      "symbol": "SocketIOManager.establishConnection()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/franzzite/Documents/Xcode Projects/PAM/PAM/SocketIOManager.swift",
+      "line": 29,
+      "symbol": "SocketIOManager.closeConnection()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/franzzite/Documents/Xcode Projects/PAM/PAM/SocketIOManager.swift",
+      "line": 33,
+      "symbol": "SocketIOManager.getCoordsProv(_:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/franzzite/Documents/Xcode Projects/PAM/PAM/TrackingItem.swift",
+      "line": 24,
+      "symbol": "TrackingItem.id",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/franzzite/Documents/Xcode Projects/PAM/PAM/TrackingItem.swift",
+      "line": 25,
+      "symbol": "TrackingItem.service",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/franzzite/Documents/Xcode Projects/PAM/PAM/TrackingItem.swift",
+      "line": 26,
+      "symbol": "TrackingItem.dateRequest",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/franzzite/Documents/Xcode Projects/PAM/PAM/TrackingItem.swift",
+      "line": 27,
+      "symbol": "TrackingItem.lat",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/franzzite/Documents/Xcode Projects/PAM/PAM/TrackingItem.swift",
+      "line": 28,
+      "symbol": "TrackingItem.lng",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/franzzite/Documents/Xcode Projects/PAM/PAM/TrackingItem.swift",
+      "line": 29,
+      "symbol": "TrackingItem.status",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/franzzite/Documents/Xcode Projects/PAM/PAM/TrackingList.swift",
+      "line": 11,
+      "symbol": "TrackingList",
+      "symbol_kind": "source.lang.swift.decl.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/franzzite/Documents/Xcode Projects/PAM/PAM/TrackingList.swift",
+      "line": 13,
+      "symbol": "TrackingList.items",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/franzzite/Documents/Xcode Projects/PAM/PAM/TrackingList.swift",
+      "line": 15,
+      "symbol": "TrackingList.init()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/franzzite/Documents/Xcode Projects/PAM/PAM/TrackingList.swift",
+      "line": 19,
+      "symbol": "TrackingList.loadItems(_:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/franzzite/Documents/Xcode Projects/PAM/PAM/TrackingList.swift",
+      "line": 35,
+      "symbol": "TrackingList.getItem(_:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/franzzite/Documents/Xcode Projects/PAM/PAM/TrackingList.swift",
+      "line": 39,
+      "symbol": "TrackingList.convertDateFormater(_:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/franzzite/Documents/Xcode Projects/PAM/PAM/TrackingList.swift",
+      "line": 50,
+      "symbol": "TrackingList.convertHourFormater(_:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/franzzite/Documents/Xcode Projects/PAM/PAM/TrackingViewCell.swift",
+      "line": 11,
+      "symbol": "TrackingViewCell",
+      "symbol_kind": "source.lang.swift.decl.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/franzzite/Documents/Xcode Projects/PAM/PAM/TrackingViewCell.swift",
+      "line": 12,
+      "symbol": "TrackingViewCell.service",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/franzzite/Documents/Xcode Projects/PAM/PAM/TrackingViewCell.swift",
+      "line": 13,
+      "symbol": "TrackingViewCell.dateRequest",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/franzzite/Documents/Xcode Projects/PAM/PAM/TrackingViewCell.swift",
+      "line": 15,
+      "symbol": "TrackingViewCell.awakeFromNib()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/franzzite/Documents/Xcode Projects/PAM/PAM/TrackingViewCell.swift",
+      "line": 20,
+      "symbol": "TrackingViewCell.setSelected(_:animated:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/franzzite/Documents/Xcode Projects/PAM/PAM/TrackingViewController.swift",
+      "line": 12,
+      "symbol": "TrackingViewController",
+      "symbol_kind": "source.lang.swift.decl.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/franzzite/Documents/Xcode Projects/PAM/PAM/TrackingViewController.swift",
+      "line": 13,
+      "symbol": "TrackingViewController.menuButton",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/franzzite/Documents/Xcode Projects/PAM/PAM/TrackingViewController.swift",
+      "line": 14,
+      "symbol": "TrackingViewController.tableView",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/franzzite/Documents/Xcode Projects/PAM/PAM/TrackingViewController.swift",
+      "line": 16,
+      "symbol": "TrackingViewController.trackingList",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/franzzite/Documents/Xcode Projects/PAM/PAM/TrackingViewController.swift",
+      "line": 17,
+      "symbol": "TrackingViewController.selectedItem",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/franzzite/Documents/Xcode Projects/PAM/PAM/TrackingViewController.swift",
+      "line": 19,
+      "symbol": "TrackingViewController.prefs",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/franzzite/Documents/Xcode Projects/PAM/PAM/TrackingViewController.swift",
+      "line": 21,
+      "symbol": "TrackingViewController.viewDidLoad()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/franzzite/Documents/Xcode Projects/PAM/PAM/TrackingViewController.swift",
+      "line": 40,
+      "symbol": "TrackingViewController.didReceiveMemoryWarning()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/franzzite/Documents/Xcode Projects/PAM/PAM/TrackingViewController.swift",
+      "line": 45,
+      "symbol": "TrackingViewController.getRequestsUser()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/franzzite/Documents/Xcode Projects/PAM/PAM/TrackingViewController.swift",
+      "line": 79,
+      "symbol": "TrackingViewController.cancelRequest(_:reason:indexPath:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/franzzite/Documents/Xcode Projects/PAM/PAM/TrackingViewController.swift",
+      "line": 123,
+      "symbol": "TrackingViewController.tableView(_:numberOfRowsInSection:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/franzzite/Documents/Xcode Projects/PAM/PAM/TrackingViewController.swift",
+      "line": 127,
+      "symbol": "TrackingViewController.tableView(_:cellForRowAtIndexPath:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/franzzite/Documents/Xcode Projects/PAM/PAM/TrackingViewController.swift",
+      "line": 158,
+      "symbol": "TrackingViewController.tableView(_:didSelectRowAtIndexPath:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/franzzite/Documents/Xcode Projects/PAM/PAM/TrackingViewController.swift",
+      "line": 172,
+      "symbol": "TrackingViewController.tableView(_:heightForRowAtIndexPath:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/franzzite/Documents/Xcode Projects/PAM/PAM/TrackingViewController.swift",
+      "line": 209,
+      "symbol": "TrackingViewController.showCancelAlert(_:message:assistId:indexPath:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/franzzite/Documents/Xcode Projects/PAM/PAM/TrackingViewController.swift",
+      "line": 234,
+      "symbol": "TrackingViewController.showAlert(_:message:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/franzzite/Documents/Xcode Projects/PAM/PAM/TrackingViewController.swift",
+      "line": 243,
+      "symbol": "TrackingViewController.showLoading()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/franzzite/Documents/Xcode Projects/PAM/PAM/TrackingViewController.swift",
+      "line": 250,
+      "symbol": "TrackingViewController.hideLoading()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/franzzite/Documents/Xcode Projects/PAM/PAM/TrackingViewController.swift",
+      "line": 254,
+      "symbol": "TrackingViewController.checkItemsTable()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/franzzite/Documents/Xcode Projects/PAM/PAM/TrackingViewController.swift",
+      "line": 266,
+      "symbol": "TrackingViewController.prepareForSegue(_:sender:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/franzzite/Documents/Xcode Projects/PAM/PAM/Utilities.swift",
+      "line": 11,
+      "symbol": "Utilities",
+      "symbol_kind": "source.lang.swift.decl.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/franzzite/Documents/Xcode Projects/PAM/PAM/Utilities.swift",
+      "line": 13,
+      "symbol": "Utilities.prefs",
+      "symbol_kind": "source.lang.swift.decl.var.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/franzzite/Documents/Xcode Projects/PAM/PAM/Utilities.swift",
+      "line": 16,
+      "symbol": "Utilities.checkUser()",
+      "symbol_kind": "source.lang.swift.decl.function.method.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/franzzite/Documents/Xcode Projects/PAM/PAM/Utilities.swift",
+      "line": 27,
+      "symbol": "Utilities.checkIsOnline()",
+      "symbol_kind": "source.lang.swift.decl.function.method.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/franzzite/Documents/Xcode Projects/PAM/PAM/Utilities.swift",
+      "line": 36,
+      "symbol": "Utilities.convertDateFormater(_:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.static",
+      "warning": "undocumented"
+    }
+  ],
+  "source_directory": "/Users/franzzite/Documents/Xcode Projects/PAM"
+}

@@ -1,0 +1,413 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "ClientList"
+provides-nominal:
+- "C3PAM10ClientList"
+provides-member:
+- ["C3PAM10ClientList", ""]
+provides-dynamic-lookup:
+- "loadItems"
+- "items"
+- "getItem"
+depends-top-level:
+- "ClientList"
+- "NSObject"
+- "ClientItem"
+- !private "StringLiteralType"
+- !private "NSArray"
+- !private "String"
+- "AnyObject"
+- "Int"
+depends-member:
+- !private ["Ps9AnyObject", "ClientItem"]
+- !private ["Ps9AnyObject", "Element"]
+- !private ["Ps9AnyObject", "Generator"]
+- !private ["Ps9AnyObject", "code"]
+- ["Ps9AnyObject", "getItem"]
+- !private ["Ps9AnyObject", "identification"]
+- ["Ps9AnyObject", "init"]
+- ["Ps9AnyObject", "items"]
+- ["Ps9AnyObject", "loadItems"]
+- !private ["Ps9AnyObject", "name"]
+- !private ["Ps9AnyObject", "subscript"]
+- ["Ps9AnyObject", ""]
+- !private ["Sa", "Generator"]
+- !private ["Sa", "Index"]
+- !private ["Sa", "SubSequence"]
+- !private ["Sa", "_Element"]
+- !private ["Sa", "append"]
+- !private ["Sa", "deinit"]
+- !private ["Sa", "removeAll"]
+- !private ["Sa", "subscript"]
+- !private ["Ps23ArrayLiteralConvertible", "Generator"]
+- !private ["Ps23ArrayLiteralConvertible", "Index"]
+- !private ["Ps23ArrayLiteralConvertible", "SubSequence"]
+- !private ["Ps23ArrayLiteralConvertible", "_Element"]
+- !private ["Ps23ArrayLiteralConvertible", "append"]
+- !private ["Ps23ArrayLiteralConvertible", "removeAll"]
+- !private ["Ps23ArrayLiteralConvertible", "subscript"]
+- !private ["Vs10ArraySlice", "Generator"]
+- !private ["Vs10ArraySlice", "Index"]
+- !private ["Ps22BidirectionalIndexType", "Distance"]
+- !private ["Ps22BidirectionalIndexType", "IntegerLiteralType"]
+- !private ["Ps21BitwiseOperationsType", "Distance"]
+- !private ["Ps21BitwiseOperationsType", "IntegerLiteralType"]
+- !private ["Ps11CVarArgType", "ClientItem"]
+- !private ["Ps11CVarArgType", "Distance"]
+- !private ["Ps11CVarArgType", "Generator"]
+- !private ["Ps11CVarArgType", "IntegerLiteralType"]
+- !private ["Ps11CVarArgType", "code"]
+- ["Ps11CVarArgType", "getItem"]
+- !private ["Ps11CVarArgType", "identification"]
+- ["Ps11CVarArgType", "init"]
+- ["Ps11CVarArgType", "items"]
+- ["Ps11CVarArgType", "loadItems"]
+- !private ["Ps11CVarArgType", "name"]
+- ["Ps11CVarArgType", ""]
+- !private ["C3PAM10ClientItem", "code"]
+- !private ["C3PAM10ClientItem", "identification"]
+- !private ["C3PAM10ClientItem", "init"]
+- !private ["C3PAM10ClientItem", "name"]
+- ["C3PAM10ClientList", "AnyObject"]
+- ["C3PAM10ClientList", "ClientItem"]
+- ["C3PAM10ClientList", "Int"]
+- !private ["C3PAM10ClientList", "NSArray"]
+- !private ["C3PAM10ClientList", "String"]
+- ["C3PAM10ClientList", "deinit"]
+- ["C3PAM10ClientList", "getItem"]
+- ["C3PAM10ClientList", "init"]
+- ["C3PAM10ClientList", "items"]
+- ["C3PAM10ClientList", "loadItems"]
+- !private ["Ps14CollectionType", "Generator"]
+- !private ["Ps14CollectionType", "Index"]
+- !private ["Ps14CollectionType", "SubSequence"]
+- !private ["Ps14CollectionType", "_Element"]
+- !private ["Ps14CollectionType", "append"]
+- !private ["Ps14CollectionType", "removeAll"]
+- !private ["Ps14CollectionType", "subscript"]
+- !private ["Ps10Comparable", "Distance"]
+- !private ["Ps10Comparable", "IntegerLiteralType"]
+- !private ["Ps28CustomDebugStringConvertible", "ClientItem"]
+- !private ["Ps28CustomDebugStringConvertible", "Generator"]
+- !private ["Ps28CustomDebugStringConvertible", "Index"]
+- !private ["Ps28CustomDebugStringConvertible", "SubSequence"]
+- !private ["Ps28CustomDebugStringConvertible", "_Element"]
+- !private ["Ps28CustomDebugStringConvertible", "append"]
+- !private ["Ps28CustomDebugStringConvertible", "code"]
+- ["Ps28CustomDebugStringConvertible", "getItem"]
+- !private ["Ps28CustomDebugStringConvertible", "identification"]
+- ["Ps28CustomDebugStringConvertible", "init"]
+- ["Ps28CustomDebugStringConvertible", "items"]
+- ["Ps28CustomDebugStringConvertible", "loadItems"]
+- !private ["Ps28CustomDebugStringConvertible", "name"]
+- !private ["Ps28CustomDebugStringConvertible", "removeAll"]
+- !private ["Ps28CustomDebugStringConvertible", "subscript"]
+- ["Ps28CustomDebugStringConvertible", ""]
+- !private ["Ps23CustomStringConvertible", "ClientItem"]
+- !private ["Ps23CustomStringConvertible", "Distance"]
+- !private ["Ps23CustomStringConvertible", "Generator"]
+- !private ["Ps23CustomStringConvertible", "Index"]
+- !private ["Ps23CustomStringConvertible", "IntegerLiteralType"]
+- !private ["Ps23CustomStringConvertible", "SubSequence"]
+- !private ["Ps23CustomStringConvertible", "_Element"]
+- !private ["Ps23CustomStringConvertible", "append"]
+- !private ["Ps23CustomStringConvertible", "code"]
+- ["Ps23CustomStringConvertible", "getItem"]
+- !private ["Ps23CustomStringConvertible", "identification"]
+- ["Ps23CustomStringConvertible", "init"]
+- ["Ps23CustomStringConvertible", "items"]
+- ["Ps23CustomStringConvertible", "loadItems"]
+- !private ["Ps23CustomStringConvertible", "name"]
+- !private ["Ps23CustomStringConvertible", "removeAll"]
+- !private ["Ps23CustomStringConvertible", "subscript"]
+- ["Ps23CustomStringConvertible", ""]
+- !private ["Ps9Equatable", "ClientItem"]
+- !private ["Ps9Equatable", "Distance"]
+- !private ["Ps9Equatable", "Generator"]
+- !private ["Ps9Equatable", "IntegerLiteralType"]
+- !private ["Ps9Equatable", "code"]
+- ["Ps9Equatable", "getItem"]
+- !private ["Ps9Equatable", "identification"]
+- ["Ps9Equatable", "init"]
+- ["Ps9Equatable", "items"]
+- ["Ps9Equatable", "loadItems"]
+- !private ["Ps9Equatable", "name"]
+- ["Ps9Equatable", ""]
+- !private ["Ps16ForwardIndexType", "Distance"]
+- !private ["Ps16ForwardIndexType", "IntegerLiteralType"]
+- !private ["Ps13GeneratorType", "Element"]
+- !private ["Ps8Hashable", "ClientItem"]
+- !private ["Ps8Hashable", "Distance"]
+- !private ["Ps8Hashable", "Generator"]
+- !private ["Ps8Hashable", "IntegerLiteralType"]
+- !private ["Ps8Hashable", "code"]
+- ["Ps8Hashable", "getItem"]
+- !private ["Ps8Hashable", "identification"]
+- ["Ps8Hashable", "init"]
+- ["Ps8Hashable", "items"]
+- ["Ps8Hashable", "loadItems"]
+- !private ["Ps8Hashable", "name"]
+- ["Ps8Hashable", ""]
+- !private ["SQ", "deinit"]
+- !private ["Ps9Indexable", "Generator"]
+- !private ["Ps9Indexable", "Index"]
+- !private ["Ps9Indexable", "SubSequence"]
+- !private ["Ps9Indexable", "_Element"]
+- !private ["Ps9Indexable", "append"]
+- !private ["Ps9Indexable", "removeAll"]
+- !private ["Ps9Indexable", "subscript"]
+- !private ["Vs17IndexingGenerator", "Element"]
+- !private ["Si", "Distance"]
+- !private ["Si", "IntegerLiteralType"]
+- !private ["Si", "deinit"]
+- !private ["Ps21IntegerArithmeticType", "Distance"]
+- !private ["Ps21IntegerArithmeticType", "IntegerLiteralType"]
+- !private ["Ps25IntegerLiteralConvertible", "Distance"]
+- !private ["Ps25IntegerLiteralConvertible", "IntegerLiteralType"]
+- !private ["Ps11IntegerType", "Distance"]
+- !private ["Ps11IntegerType", "IntegerLiteralType"]
+- !private ["Ps14MirrorPathType", "Distance"]
+- !private ["Ps14MirrorPathType", "IntegerLiteralType"]
+- !private ["Ps21MutableCollectionType", "Generator"]
+- !private ["Ps21MutableCollectionType", "Index"]
+- !private ["Ps21MutableCollectionType", "SubSequence"]
+- !private ["Ps21MutableCollectionType", "_Element"]
+- !private ["Ps21MutableCollectionType", "append"]
+- !private ["Ps21MutableCollectionType", "removeAll"]
+- !private ["Ps21MutableCollectionType", "subscript"]
+- !private ["Ps16MutableIndexable", "Generator"]
+- !private ["Ps16MutableIndexable", "Index"]
+- !private ["Ps16MutableIndexable", "SubSequence"]
+- !private ["Ps16MutableIndexable", "_Element"]
+- !private ["Ps16MutableIndexable", "append"]
+- !private ["Ps16MutableIndexable", "removeAll"]
+- !private ["Ps16MutableIndexable", "subscript"]
+- !private ["Ps16MutableSliceable", "Generator"]
+- !private ["Ps16MutableSliceable", "Index"]
+- !private ["Ps16MutableSliceable", "SubSequence"]
+- !private ["Ps16MutableSliceable", "_Element"]
+- !private ["Ps16MutableSliceable", "append"]
+- !private ["Ps16MutableSliceable", "removeAll"]
+- !private ["Ps16MutableSliceable", "subscript"]
+- !private ["CSo7NSArray", "Generator"]
+- !private ["PSo8NSCoding", "Generator"]
+- !private ["PSo9NSCopying", "Generator"]
+- !private ["PSo9NSCopying", "deinit"]
+- !private ["PSo17NSFastEnumeration", "Generator"]
+- !private ["C10Foundation15NSFastGenerator", "Element"]
+- !private ["PSo16NSMutableCopying", "Generator"]
+- ["CSo8NSObject", "AnyObject"]
+- ["CSo8NSObject", "ClientItem"]
+- !private ["CSo8NSObject", "Generator"]
+- ["CSo8NSObject", "Int"]
+- !private ["CSo8NSObject", "NSArray"]
+- !private ["CSo8NSObject", "String"]
+- !private ["CSo8NSObject", "code"]
+- ["CSo8NSObject", "getItem"]
+- !private ["CSo8NSObject", "identification"]
+- ["CSo8NSObject", "init"]
+- ["CSo8NSObject", "items"]
+- ["CSo8NSObject", "loadItems"]
+- !private ["CSo8NSObject", "name"]
+- ["CSo8NSObject", ""]
+- !private ["PSo16NSObjectProtocol", "ClientItem"]
+- !private ["PSo16NSObjectProtocol", "Generator"]
+- !private ["PSo16NSObjectProtocol", "code"]
+- ["PSo16NSObjectProtocol", "getItem"]
+- !private ["PSo16NSObjectProtocol", "identification"]
+- ["PSo16NSObjectProtocol", "init"]
+- ["PSo16NSObjectProtocol", "items"]
+- ["PSo16NSObjectProtocol", "loadItems"]
+- !private ["PSo16NSObjectProtocol", "name"]
+- ["PSo16NSObjectProtocol", ""]
+- !private ["PSo14NSSecureCoding", "Generator"]
+- !private ["Sq", "deinit"]
+- !private ["Ps21RandomAccessIndexType", "Distance"]
+- !private ["Ps21RandomAccessIndexType", "IntegerLiteralType"]
+- !private ["Ps30RangeReplaceableCollectionType", "Generator"]
+- !private ["Ps30RangeReplaceableCollectionType", "Index"]
+- !private ["Ps30RangeReplaceableCollectionType", "SubSequence"]
+- !private ["Ps30RangeReplaceableCollectionType", "_Element"]
+- !private ["Ps30RangeReplaceableCollectionType", "append"]
+- !private ["Ps30RangeReplaceableCollectionType", "removeAll"]
+- !private ["Ps30RangeReplaceableCollectionType", "subscript"]
+- !private ["Ps12SequenceType", "Element"]
+- !private ["Ps12SequenceType", "Generator"]
+- !private ["Ps12SequenceType", "Index"]
+- !private ["Ps12SequenceType", "SubSequence"]
+- !private ["Ps12SequenceType", "_Element"]
+- !private ["Ps12SequenceType", "append"]
+- !private ["Ps12SequenceType", "removeAll"]
+- !private ["Ps12SequenceType", "subscript"]
+- !private ["Ps17SignedIntegerType", "Distance"]
+- !private ["Ps17SignedIntegerType", "IntegerLiteralType"]
+- !private ["Ps16SignedNumberType", "Distance"]
+- !private ["Ps16SignedNumberType", "IntegerLiteralType"]
+- !private ["Vs5Slice", "Generator"]
+- !private ["Vs5Slice", "Index"]
+- !private ["Vs5Slice", "SubSequence"]
+- !private ["Vs5Slice", "_Element"]
+- !private ["Ps10Strideable", "Distance"]
+- !private ["Ps10Strideable", "IntegerLiteralType"]
+- !private ["SS", "deinit"]
+- !private ["Ps10_ArrayType", "Generator"]
+- !private ["Ps10_ArrayType", "Index"]
+- !private ["Ps10_ArrayType", "SubSequence"]
+- !private ["Ps10_ArrayType", "_Element"]
+- !private ["Ps10_ArrayType", "append"]
+- !private ["Ps10_ArrayType", "removeAll"]
+- !private ["Ps10_ArrayType", "subscript"]
+- !private ["Ps33_BuiltinIntegerLiteralConvertible", "Distance"]
+- !private ["Ps33_BuiltinIntegerLiteralConvertible", "IntegerLiteralType"]
+- !private ["Ps24_DestructorSafeContainer", "Generator"]
+- !private ["Ps24_DestructorSafeContainer", "Index"]
+- !private ["Ps24_DestructorSafeContainer", "SubSequence"]
+- !private ["Ps24_DestructorSafeContainer", "_Element"]
+- !private ["Ps24_DestructorSafeContainer", "append"]
+- !private ["Ps24_DestructorSafeContainer", "removeAll"]
+- !private ["Ps24_DestructorSafeContainer", "subscript"]
+- !private ["Ps14_Incrementable", "Distance"]
+- !private ["Ps14_Incrementable", "IntegerLiteralType"]
+- !private ["Ps22_IntegerArithmeticType", "Distance"]
+- !private ["Ps22_IntegerArithmeticType", "IntegerLiteralType"]
+- !private ["Ps12_IntegerType", "Distance"]
+- !private ["Ps12_IntegerType", "IntegerLiteralType"]
+- !private ["Ps21_ObjectiveCBridgeable", "Distance"]
+- !private ["Ps21_ObjectiveCBridgeable", "Generator"]
+- !private ["Ps21_ObjectiveCBridgeable", "Index"]
+- !private ["Ps21_ObjectiveCBridgeable", "IntegerLiteralType"]
+- !private ["Ps21_ObjectiveCBridgeable", "SubSequence"]
+- !private ["Ps21_ObjectiveCBridgeable", "_Element"]
+- !private ["Ps21_ObjectiveCBridgeable", "append"]
+- !private ["Ps21_ObjectiveCBridgeable", "removeAll"]
+- !private ["Ps21_ObjectiveCBridgeable", "subscript"]
+- !private ["Ps22_RandomAccessAmbiguity", "Distance"]
+- !private ["Ps22_RandomAccessAmbiguity", "IntegerLiteralType"]
+- !private ["Ps12_Reflectable", "Distance"]
+- !private ["Ps12_Reflectable", "Generator"]
+- !private ["Ps12_Reflectable", "Index"]
+- !private ["Ps12_Reflectable", "IntegerLiteralType"]
+- !private ["Ps12_Reflectable", "SubSequence"]
+- !private ["Ps12_Reflectable", "_Element"]
+- !private ["Ps12_Reflectable", "append"]
+- !private ["Ps12_Reflectable", "removeAll"]
+- !private ["Ps12_Reflectable", "subscript"]
+- !private ["Ps18_SignedIntegerType", "Distance"]
+- !private ["Ps18_SignedIntegerType", "IntegerLiteralType"]
+depends-nominal:
+- "Ps9AnyObject"
+- !private "Sa"
+- !private "Ps23ArrayLiteralConvertible"
+- !private "Vs10ArraySlice"
+- !private "Ps22BidirectionalIndexType"
+- !private "Ps21BitwiseOperationsType"
+- "Ps11CVarArgType"
+- !private "C3PAM10ClientItem"
+- "C3PAM10ClientList"
+- !private "Ps14CollectionType"
+- !private "Ps10Comparable"
+- "Ps28CustomDebugStringConvertible"
+- "Ps23CustomStringConvertible"
+- "Ps9Equatable"
+- !private "Ps16ForwardIndexType"
+- !private "Ps13GeneratorType"
+- "Ps8Hashable"
+- !private "SQ"
+- !private "Ps9Indexable"
+- !private "Vs17IndexingGenerator"
+- !private "Si"
+- !private "Ps21IntegerArithmeticType"
+- !private "Ps25IntegerLiteralConvertible"
+- !private "Ps11IntegerType"
+- !private "Ps14MirrorPathType"
+- !private "Ps21MutableCollectionType"
+- !private "Ps16MutableIndexable"
+- !private "Ps16MutableSliceable"
+- !private "CSo7NSArray"
+- !private "PSo8NSCoding"
+- !private "PSo9NSCopying"
+- !private "PSo17NSFastEnumeration"
+- !private "C10Foundation15NSFastGenerator"
+- !private "PSo16NSMutableCopying"
+- "CSo8NSObject"
+- "PSo16NSObjectProtocol"
+- !private "PSo14NSSecureCoding"
+- !private "Sq"
+- !private "Ps21RandomAccessIndexType"
+- !private "Ps30RangeReplaceableCollectionType"
+- !private "Ps12SequenceType"
+- !private "Ps17SignedIntegerType"
+- !private "Ps16SignedNumberType"
+- !private "Vs5Slice"
+- !private "Ps10Strideable"
+- !private "SS"
+- !private "Ps10_ArrayType"
+- !private "Ps33_BuiltinIntegerLiteralConvertible"
+- !private "Ps24_DestructorSafeContainer"
+- !private "Ps14_Incrementable"
+- !private "Ps22_IntegerArithmeticType"
+- !private "Ps12_IntegerType"
+- !private "Ps21_ObjectiveCBridgeable"
+- !private "Ps22_RandomAccessAmbiguity"
+- !private "Ps12_Reflectable"
+- !private "Ps18_SignedIntegerType"
+depends-dynamic-lookup:
+- !private "subscript"
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Swift.swiftmodule"
+- "/Users/franzzite/Documents/Xcode Projects/PAM/PAM/PAM-Bridging-Header.h"
+- "/Users/franzzite/Documents/Xcode Projects/PAM/PAM/MGSwipeTableCell/MGSwipeTableCell.h"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreImage.swiftmodule"
+- "/Users/franzzite/Documents/Xcode Projects/PAM/PAM/MGSwipeTableCell/MGSwipeButton.h"
+- "/Users/franzzite/Documents/Xcode Projects/PAM/PAM/SWRevealViewController.h"
+- "/Users/franzzite/Documents/Xcode Projects/PAM/Pods/Headers/Public/GoogleMaps/GoogleMapsBase/GMSCoordinateBounds.h"
+- "/Users/franzzite/Documents/Xcode Projects/PAM/Pods/Headers/Public/GoogleMaps/GoogleMapsBase/GMSCompatabilityMacros.h"
+- "/Users/franzzite/Documents/Xcode Projects/PAM/Pods/GoogleMaps/Subspecs/Base/Frameworks/GoogleMapsBase.framework/Headers/GoogleMapsBase.h"
+- "/Users/franzzite/Documents/Xcode Projects/PAM/Pods/GoogleMaps/Subspecs/Base/Frameworks/GoogleMapsBase.framework/Modules/module.modulemap"
+- "/Users/franzzite/Documents/Xcode Projects/PAM/Pods/Headers/Public/GoogleMaps/GoogleMaps/GMSURLTileLayer.h"
+- "/Users/franzzite/Documents/Xcode Projects/PAM/Pods/Headers/Public/GoogleMaps/GoogleMaps/GMSTileLayer.h"
+- "/Users/franzzite/Documents/Xcode Projects/PAM/Pods/Headers/Public/GoogleMaps/GoogleMaps/GMSSyncTileLayer.h"
+- "/Users/franzzite/Documents/Xcode Projects/PAM/Pods/Headers/Public/GoogleMaps/GoogleMaps/GMSServices.h"
+- "/Users/franzzite/Documents/Xcode Projects/PAM/Pods/Headers/Public/GoogleMaps/GoogleMaps/GMSPolyline.h"
+- "/Users/franzzite/Documents/Xcode Projects/PAM/Pods/Headers/Public/GoogleMaps/GoogleMaps/GMSPolygon.h"
+- "/Users/franzzite/Documents/Xcode Projects/PAM/Pods/Headers/Public/GoogleMaps/GoogleMaps/GMSPanoramaView.h"
+- "/Users/franzzite/Documents/Xcode Projects/PAM/Pods/Headers/Public/GoogleMaps/GoogleMaps/GMSPanoramaService.h"
+- "/Users/franzzite/Documents/Xcode Projects/PAM/Pods/Headers/Public/GoogleMaps/GoogleMaps/GMSPanoramaLink.h"
+- "/Users/franzzite/Documents/Xcode Projects/PAM/Pods/Headers/Public/GoogleMaps/GoogleMaps/GMSPanoramaLayer.h"
+- "/Users/franzzite/Documents/Xcode Projects/PAM/Pods/Headers/Public/GoogleMaps/GoogleMaps/GMSPanoramaCameraUpdate.h"
+- "/Users/franzzite/Documents/Xcode Projects/PAM/Pods/Headers/Public/GoogleMaps/GoogleMaps/GMSPanoramaCamera.h"
+- "/Users/franzzite/Documents/Xcode Projects/PAM/Pods/Headers/Public/GoogleMaps/GoogleMaps/GMSPanorama.h"
+- "/Users/franzzite/Documents/Xcode Projects/PAM/Pods/Headers/Public/GoogleMaps/GoogleMaps/GMSOrientation.h"
+- "/Users/franzzite/Documents/Xcode Projects/PAM/Pods/Headers/Public/GoogleMaps/GoogleMaps/GMSMutablePath.h"
+- "/Users/franzzite/Documents/Xcode Projects/PAM/Pods/Headers/Public/GoogleMaps/GoogleMaps/GMSMarkerLayer.h"
+- "/Users/franzzite/Documents/Xcode Projects/PAM/Pods/Headers/Public/GoogleMaps/GoogleMaps/GMSMarker.h"
+- "/Users/franzzite/Documents/Xcode Projects/PAM/Pods/Headers/Public/GoogleMaps/GoogleMaps/GMSUISettings.h"
+- "/Users/franzzite/Documents/Xcode Projects/PAM/Pods/Headers/Public/GoogleMaps/GoogleMaps/GMSMapView.h"
+- "/Users/franzzite/Documents/Xcode Projects/PAM/Pods/Headers/Public/GoogleMaps/GoogleMaps/GMSMapView+Animation.h"
+- "/Users/franzzite/Documents/Xcode Projects/PAM/Pods/Headers/Public/GoogleMaps/GoogleMaps/GMSMapLayer.h"
+- "/Users/franzzite/Documents/Xcode Projects/PAM/Pods/Headers/Public/GoogleMaps/GoogleMaps/GMSIndoorLevel.h"
+- "/Users/franzzite/Documents/Xcode Projects/PAM/Pods/Headers/Public/GoogleMaps/GoogleMaps/GMSIndoorDisplay.h"
+- "/Users/franzzite/Documents/Xcode Projects/PAM/Pods/Headers/Public/GoogleMaps/GoogleMaps/GMSIndoorBuilding.h"
+- "/Users/franzzite/Documents/Xcode Projects/PAM/Pods/Headers/Public/GoogleMaps/GoogleMaps/GMSGroundOverlay.h"
+- "/Users/franzzite/Documents/Xcode Projects/PAM/Pods/Headers/Public/GoogleMaps/GoogleMaps/GMSPath.h"
+- "/Users/franzzite/Documents/Xcode Projects/PAM/Pods/Headers/Public/GoogleMaps/GoogleMaps/GMSGeometryUtils.h"
+- "/Users/franzzite/Documents/Xcode Projects/PAM/Pods/Headers/Public/GoogleMaps/GoogleMaps/GMSGeocoder.h"
+- "/Users/franzzite/Documents/Xcode Projects/PAM/Pods/Headers/Public/GoogleMaps/GoogleMaps/GMSProjection.h"
+- "/Users/franzzite/Documents/Xcode Projects/PAM/Pods/Headers/Public/GoogleMaps/GoogleMaps/GMSCoordinateBounds+GoogleMaps.h"
+- "/Users/franzzite/Documents/Xcode Projects/PAM/Pods/Headers/Public/GoogleMaps/GoogleMaps/GMSOverlay.h"
+- "/Users/franzzite/Documents/Xcode Projects/PAM/Pods/Headers/Public/GoogleMaps/GoogleMaps/GMSCircle.h"
+- "/Users/franzzite/Documents/Xcode Projects/PAM/Pods/Headers/Public/GoogleMaps/GoogleMaps/GMSCameraUpdate.h"
+- "/Users/franzzite/Documents/Xcode Projects/PAM/Pods/Headers/Public/GoogleMaps/GoogleMaps/GMSCameraPosition.h"
+- "/Users/franzzite/Documents/Xcode Projects/PAM/Pods/Headers/Public/GoogleMaps/GoogleMaps/GMSCALayer.h"
+- "/Users/franzzite/Documents/Xcode Projects/PAM/Pods/Headers/Public/GoogleMaps/GoogleMaps/GMSDeprecationMacros.h"
+- "/Users/franzzite/Documents/Xcode Projects/PAM/Pods/Headers/Public/GoogleMaps/GoogleMaps/GMSAddress.h"
+- "/Users/franzzite/Documents/Xcode Projects/PAM/Pods/GoogleMaps/Subspecs/Maps/Frameworks/GoogleMaps.framework/Headers/GoogleMaps.h"
+- "/Users/franzzite/Documents/Xcode Projects/PAM/Pods/GoogleMaps/Subspecs/Maps/Frameworks/GoogleMaps.framework/Modules/module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreLocation.swiftmodule"
+interface-hash: "6140b6253858b61f194e7449029e6b1d"

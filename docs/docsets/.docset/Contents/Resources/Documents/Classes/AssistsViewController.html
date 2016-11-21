@@ -1,0 +1,1525 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>AssistsViewController Class Reference</title>
+    <link rel="stylesheet" type="text/css" href="../css/jazzy.css" />
+    <link rel="stylesheet" type="text/css" href="../css/highlight.css" />
+    <meta charset='utf-8'>
+    <script src="../js/jquery.min.js" defer></script>
+    <script src="../js/jazzy.js" defer></script>
+    
+  </head>
+  <body>
+    <a name="//apple_ref/swift/Class/AssistsViewController" class="dashAnchor"></a>
+    <a title="AssistsViewController Class Reference"></a>
+    <header>
+      <div class="content-wrapper">
+        <p><a href="../index.html"> Docs</a> (51% documented)</p>
+      </div>
+    </header>
+    <div class="content-wrapper">
+      <p id="breadcrumbs">
+        <a href="../index.html"> Reference</a>
+        <img id="carat" src="../img/carat.png" />
+        AssistsViewController Class Reference
+      </p>
+    </div>
+    <div class="content-wrapper">
+      <nav class="sidebar">
+        <ul class="nav-groups">
+          <li class="nav-group-name">
+            <a href="../Classes.html">Classes</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="../Classes/API.html">API</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/AboutViewController.html">AboutViewController</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/Alerts.html">Alerts</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/AppDelegate.html">AppDelegate</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/AssistanceItem.html">AssistanceItem</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/AssistanceList.html">AssistanceList</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/AssistanceViewCell.html">AssistanceViewCell</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/AssistsViewController.html">AssistsViewController</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/ClientItem.html">ClientItem</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/ClientList.html">ClientList</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/IndexViewController.html">IndexViewController</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/Loading.html">Loading</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/LoginViewController.html">LoginViewController</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/MapNavigationViewController.html">MapNavigationViewController</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/MapTrackingViewController.html">MapTrackingViewController</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/MenuViewController.html">MenuViewController</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/PlanItem.html">PlanItem</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/PlanList.html">PlanList</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/PlanViewCell.html">PlanViewCell</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/PlansViewController.html">PlansViewController</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/ProgrammingViewController.html">ProgrammingViewController</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/Reachability.html">Reachability</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/RegisterViewController.html">RegisterViewController</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/SocketIOManager.html">SocketIOManager</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/TrackingItem.html">TrackingItem</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/TrackingList.html">TrackingList</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/TrackingViewCell.html">TrackingViewCell</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/TrackingViewController.html">TrackingViewController</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/Utilities.html">Utilities</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a href="../Extensions.html">Extensions</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="../Extensions/NSDate.html">NSDate</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Extensions/UIApplication.html">UIApplication</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Extensions/UIColor.html">UIColor</a>
+              </li>
+            </ul>
+          </li>
+        </ul>
+      </nav>
+      <article class="main-content">
+        <section>
+          <section class="section">
+            <h1>AssistsViewController</h1>
+              <div class="declaration">
+                <div class="language">
+                  <pre class="highlight"><code><span class="kd">class</span> <span class="kt">AssistsViewController</span><span class="p">:</span> <span class="kt">UIViewController</span><span class="p">,</span> <span class="kt">UITableViewDelegate</span><span class="p">,</span> <span class="kt">CLLocationManagerDelegate</span></code></pre>
+
+                </div>
+              </div>
+            <p>Controlador que maneja los metodos de la vista <q>Asistencias</q></p>
+
+          </section>
+          <section class="section task-group-section">
+            <div class="task-group">
+              <div class="task-name-container">
+                <a name="/IBOutlet"></a>
+                <a name="//apple_ref/swift/Section/IBOutlet" class="dashAnchor"></a>
+                <a href="#/IBOutlet">
+                  <h3 class="section-name">IBOutlet</h3>
+                </a>
+              </div>
+              <ul>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:vC3PAM21AssistsViewController9tableViewXwGSQCSo11UITableView_"></a>
+                    <a name="//apple_ref/swift/Property/tableView" class="dashAnchor"></a>
+                    <a class="token" href="#/s:vC3PAM21AssistsViewController9tableViewXwGSQCSo11UITableView_">tableView</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="kd">class</span> <span class="kt">AssistsViewController</span><span class="p">:</span> <span class="kt">UIViewController</span><span class="p">,</span> <span class="kt">UITableViewDelegate</span><span class="p">,</span> <span class="kt">CLLocationManagerDelegate</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:vC3PAM21AssistsViewController10backButtonXwGSQCSo15UIBarButtonItem_"></a>
+                    <a name="//apple_ref/swift/Property/backButton" class="dashAnchor"></a>
+                    <a class="token" href="#/s:vC3PAM21AssistsViewController10backButtonXwGSQCSo15UIBarButtonItem_">backButton</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="kd">class</span> <span class="kt">AssistsViewController</span><span class="p">:</span> <span class="kt">UIViewController</span><span class="p">,</span> <span class="kt">UITableViewDelegate</span><span class="p">,</span> <span class="kt">CLLocationManagerDelegate</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+              </ul>
+            </div>
+            <div class="task-group">
+              <div class="task-name-container">
+                <a name="/Variables%20Generales"></a>
+                <a name="//apple_ref/swift/Section/Variables Generales" class="dashAnchor"></a>
+                <a href="#/Variables%20Generales">
+                  <h3 class="section-name">Variables Generales</h3>
+                </a>
+              </div>
+              <ul>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:vC3PAM21AssistsViewController15locationManagerCSo17CLLocationManager"></a>
+                    <a name="//apple_ref/swift/Property/locationManager" class="dashAnchor"></a>
+                    <a class="token" href="#/s:vC3PAM21AssistsViewController15locationManagerCSo17CLLocationManager">locationManager</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Constante de locationManager</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="k">let</span> <span class="nv">locationManager</span> <span class="o">=</span> <span class="kt">CLLocationManager</span><span class="p">()</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:vC3PAM21AssistsViewController10coordinateGSQVSC22CLLocationCoordinate2D_"></a>
+                    <a name="//apple_ref/swift/Property/coordinate" class="dashAnchor"></a>
+                    <a class="token" href="#/s:vC3PAM21AssistsViewController10coordinateGSQVSC22CLLocationCoordinate2D_">coordinate</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Variable que almacena coordenadas</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="k">var</span> <span class="nv">coordinate</span><span class="p">:</span> <span class="kt">CLLocationCoordinate2D</span><span class="o">!</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:vC3PAM21AssistsViewController14locationStatusCSo8NSString"></a>
+                    <a name="//apple_ref/swift/Property/locationStatus" class="dashAnchor"></a>
+                    <a class="token" href="#/s:vC3PAM21AssistsViewController14locationStatusCSo8NSString">locationStatus</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Variable que almacena un string para definir el status</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="k">var</span> <span class="nv">locationStatus</span><span class="p">:</span> <span class="kt">NSString</span> <span class="o">=</span> <span class="s">"Not Started"</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:vC3PAM21AssistsViewController19locationFixAchievedSb"></a>
+                    <a name="//apple_ref/swift/Property/locationFixAchieved" class="dashAnchor"></a>
+                    <a class="token" href="#/s:vC3PAM21AssistsViewController19locationFixAchievedSb">locationFixAchieved</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Variable tipo Bool para definir si la locacion ha sido generada</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="k">var</span> <span class="nv">locationFixAchieved</span><span class="p">:</span> <span class="kt">Bool</span> <span class="o">=</span> <span class="kc">false</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:vC3PAM21AssistsViewController8assistIdGSqSS_"></a>
+                    <a name="//apple_ref/swift/Property/assistId" class="dashAnchor"></a>
+                    <a class="token" href="#/s:vC3PAM21AssistsViewController8assistIdGSqSS_">assistId</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="kd">class</span> <span class="kt">AssistsViewController</span><span class="p">:</span> <span class="kt">UIViewController</span><span class="p">,</span> <span class="kt">UITableViewDelegate</span><span class="p">,</span> <span class="kt">CLLocationManagerDelegate</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:vC3PAM21AssistsViewController12esemergenciaSb"></a>
+                    <a name="//apple_ref/swift/Property/esemergencia" class="dashAnchor"></a>
+                    <a class="token" href="#/s:vC3PAM21AssistsViewController12esemergenciaSb">esemergencia</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="kd">class</span> <span class="kt">AssistsViewController</span><span class="p">:</span> <span class="kt">UIViewController</span><span class="p">,</span> <span class="kt">UITableViewDelegate</span><span class="p">,</span> <span class="kt">CLLocationManagerDelegate</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:vC3PAM21AssistsViewController9phoneUserGSqSS_"></a>
+                    <a name="//apple_ref/swift/Property/phoneUser" class="dashAnchor"></a>
+                    <a class="token" href="#/s:vC3PAM21AssistsViewController9phoneUserGSqSS_">phoneUser</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="kd">class</span> <span class="kt">AssistsViewController</span><span class="p">:</span> <span class="kt">UIViewController</span><span class="p">,</span> <span class="kt">UITableViewDelegate</span><span class="p">,</span> <span class="kt">CLLocationManagerDelegate</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:vC3PAM21AssistsViewController11addressUserGSqSS_"></a>
+                    <a name="//apple_ref/swift/Property/addressUser" class="dashAnchor"></a>
+                    <a class="token" href="#/s:vC3PAM21AssistsViewController11addressUserGSqSS_">addressUser</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="kd">class</span> <span class="kt">AssistsViewController</span><span class="p">:</span> <span class="kt">UIViewController</span><span class="p">,</span> <span class="kt">UITableViewDelegate</span><span class="p">,</span> <span class="kt">CLLocationManagerDelegate</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:vC3PAM21AssistsViewController14assistanceListCS_14AssistanceList"></a>
+                    <a name="//apple_ref/swift/Property/assistanceList" class="dashAnchor"></a>
+                    <a class="token" href="#/s:vC3PAM21AssistsViewController14assistanceListCS_14AssistanceList">assistanceList</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Constante que instancia AssistanceList()</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="k">let</span> <span class="nv">assistanceList</span> <span class="o">=</span> <span class="kt"><a href="../Classes/AssistanceList.html">AssistanceList</a></span><span class="p">()</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:vC3PAM21AssistsViewController8planItemGSQCS_8PlanItem_"></a>
+                    <a name="//apple_ref/swift/Property/planItem" class="dashAnchor"></a>
+                    <a class="token" href="#/s:vC3PAM21AssistsViewController8planItemGSQCS_8PlanItem_">planItem</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Variable que instancia PlanItem</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="k">var</span> <span class="nv">planItem</span><span class="p">:</span> <span class="kt"><a href="../Classes/PlanItem.html">PlanItem</a></span><span class="o">!</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:vC3PAM21AssistsViewController12selectedItemGSqCS_14AssistanceItem_"></a>
+                    <a name="//apple_ref/swift/Property/selectedItem" class="dashAnchor"></a>
+                    <a class="token" href="#/s:vC3PAM21AssistsViewController12selectedItemGSqCS_14AssistanceItem_">selectedItem</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Variable que guarda el item (asistencia) seleccionado</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="k">var</span> <span class="nv">selectedItem</span><span class="p">:</span> <span class="kt"><a href="../Classes/AssistanceItem.html">AssistanceItem</a></span><span class="p">?</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:vC3PAM21AssistsViewController5prefsCSo14NSUserDefaults"></a>
+                    <a name="//apple_ref/swift/Property/prefs" class="dashAnchor"></a>
+                    <a class="token" href="#/s:vC3PAM21AssistsViewController5prefsCSo14NSUserDefaults">prefs</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Variable que almacena la informacion guardada en memoria</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="k">var</span> <span class="nv">prefs</span><span class="p">:</span><span class="kt">NSUserDefaults</span> <span class="o">=</span> <span class="kt">NSUserDefaults</span><span class="o">.</span><span class="nf">standardUserDefaults</span><span class="p">()</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+              </ul>
+            </div>
+            <div class="task-group">
+              <div class="task-name-container">
+                <a name="/Metodos"></a>
+                <a name="//apple_ref/swift/Section/Metodos" class="dashAnchor"></a>
+                <a href="#/Metodos">
+                  <h3 class="section-name">Metodos</h3>
+                </a>
+              </div>
+              <ul>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:FC3PAM21AssistsViewController11viewDidLoadFT_T_"></a>
+                    <a name="//apple_ref/swift/Method/viewDidLoad()" class="dashAnchor"></a>
+                    <a class="token" href="#/s:FC3PAM21AssistsViewController11viewDidLoadFT_T_">viewDidLoad()</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Metodo que se ejecuta una sola vez cuando carga la vista.</p>
+
+<ul>
+<li>Modifica el color de fondo de la cabecera y el color del texto</li>
+<li>Instancia la celda para la tabla</li>
+<li>Ejecuta el metodo getAssistsByPlan() que devuelve las asistencia del plan seleccionado</li>
+</ul>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="k">override</span> <span class="kd">func</span> <span class="nf">viewDidLoad</span><span class="p">()</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:FC3PAM21AssistsViewController23didReceiveMemoryWarningFT_T_"></a>
+                    <a name="//apple_ref/swift/Method/didReceiveMemoryWarning()" class="dashAnchor"></a>
+                    <a class="token" href="#/s:FC3PAM21AssistsViewController23didReceiveMemoryWarningFT_T_">didReceiveMemoryWarning()</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Metodo que se ejecuta cuando hay un warning de memoria</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="k">override</span> <span class="kd">func</span> <span class="nf">didReceiveMemoryWarning</span><span class="p">()</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:FC3PAM21AssistsViewController8backViewFCSo15UIBarButtonItemT_"></a>
+                    <a name="//apple_ref/swift/Method/backView(_:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:FC3PAM21AssistsViewController8backViewFCSo15UIBarButtonItemT_">backView(_:)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Metodo que permite cerrar la vista y volver a la anterior</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="kd">@IBAction</span> <span class="kd">func</span> <span class="nf">backView</span><span class="p">(</span><span class="nv">sender</span><span class="p">:</span> <span class="kt">UIBarButtonItem</span><span class="p">)</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:FC3PAM21AssistsViewController16getAssistsByPlanFSST_"></a>
+                    <a name="//apple_ref/swift/Method/getAssistsByPlan(_:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:FC3PAM21AssistsViewController16getAssistsByPlanFSST_">getAssistsByPlan(_:)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Metodo que devuelve las asistencias del plan seleccionado.</p>
+
+<p>Envia los datos a la API que despues son enviadas al servidor.</p>
+
+<ul>
+<li>Parameters:
+
+<ul>
+<li>planId: id de plan</li>
+</ul></li>
+</ul>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="kd">func</span> <span class="nf">getAssistsByPlan</span><span class="p">(</span><span class="nv">planId</span><span class="p">:</span> <span class="kt">String</span><span class="p">)</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div>
+                        <h4>Parameters</h4>
+                        <table class="graybox">
+                          <tbody>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>planId</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>id de plan</p>
+
+                                </div>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:FC3PAM21AssistsViewController10sendSOANNGFTSS9phoneUserSS11addressUserSS12esemergenciaSb_T_"></a>
+                    <a name="//apple_ref/swift/Method/sendSOANNG(_:phoneUser:addressUser:esemergencia:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:FC3PAM21AssistsViewController10sendSOANNGFTSS9phoneUserSS11addressUserSS12esemergenciaSb_T_">sendSOANNG(_:phoneUser:addressUser:esemergencia:)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Checkea la localizacion y afirma que es una emergencia</p>
+
+<ul>
+<li>Parameters:
+
+<ul>
+<li>assistId: String</li>
+<li>phoneUser: String</li>
+<li>addressUser: String</li>
+<li>esemergencia: Bool</li>
+</ul></li>
+</ul>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="kd">func</span> <span class="nf">sendSOANNG</span><span class="p">(</span><span class="nv">assistId</span><span class="p">:</span><span class="kt">String</span><span class="p">,</span> <span class="nv">phoneUser</span><span class="p">:</span><span class="kt">String</span><span class="p">,</span> <span class="nv">addressUser</span><span class="p">:</span><span class="kt">String</span><span class="p">,</span> <span class="nv">esemergencia</span><span class="p">:</span><span class="kt">Bool</span><span class="p">)</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div>
+                        <h4>Parameters</h4>
+                        <table class="graybox">
+                          <tbody>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>assistId</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>String</p>
+
+                                </div>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>phoneUser</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>String</p>
+
+                                </div>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>addressUser</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>String</p>
+
+                                </div>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>esemergencia</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>Bool</p>
+
+                                </div>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:FC3PAM21AssistsViewController18sendAssistToSOANNGFTSS8clientIdSS6planIdSS8assistIdSS3latSd3lngSd12esemergenciaSb7countrySS5phoneSS7addressSS_T_"></a>
+                    <a name="//apple_ref/swift/Method/sendAssistToSOANNG(_:clientId:planId:assistId:lat:lng:esemergencia:country:phone:address:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:FC3PAM21AssistsViewController18sendAssistToSOANNGFTSS8clientIdSS6planIdSS8assistIdSS3latSd3lngSd12esemergenciaSb7countrySS5phoneSS7addressSS_T_">sendAssistToSOANNG(_:clientId:planId:assistId:lat:lng:esemergencia:country:phone:address:)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Envia la informacion al SOANNG</p>
+
+<ul>
+<li>Parameters:
+
+<ul>
+<li>cveUser: String</li>
+<li>clientId: String</li>
+<li>planId: String</li>
+<li>assistId: Bool</li>
+<li>lat: Double</li>
+<li>lng: Double</li>
+<li>addressUser: String</li>
+<li>esemergencia: Bool</li>
+<li>country: String</li>
+<li>phone: String</li>
+<li>address: String</li>
+</ul></li>
+</ul>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="kd">func</span> <span class="nf">sendAssistToSOANNG</span><span class="p">(</span><span class="nv">cveUser</span><span class="p">:</span><span class="kt">String</span><span class="p">,</span> <span class="nv">clientId</span><span class="p">:</span><span class="kt">String</span><span class="p">,</span> <span class="nv">planId</span><span class="p">:</span><span class="kt">String</span><span class="p">,</span> <span class="nv">assistId</span><span class="p">:</span><span class="kt">String</span><span class="p">,</span> <span class="nv">lat</span><span class="p">:</span><span class="kt">Double</span><span class="p">,</span> <span class="nv">lng</span><span class="p">:</span><span class="kt">Double</span><span class="p">,</span> <span class="nv">esemergencia</span><span class="p">:</span><span class="kt">Bool</span><span class="p">,</span> <span class="nv">country</span><span class="p">:</span><span class="kt">String</span><span class="p">,</span> <span class="nv">phone</span><span class="p">:</span><span class="kt">String</span><span class="p">,</span> <span class="nv">address</span><span class="p">:</span><span class="kt">String</span><span class="p">)</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div>
+                        <h4>Parameters</h4>
+                        <table class="graybox">
+                          <tbody>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>cveUser</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>String</p>
+
+                                </div>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>clientId</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>String</p>
+
+                                </div>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>planId</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>String</p>
+
+                                </div>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>assistId</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>Bool</p>
+
+                                </div>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>lat</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>Double</p>
+
+                                </div>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>lng</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>Double</p>
+
+                                </div>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>addressUser</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>String</p>
+
+                                </div>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>esemergencia</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>Bool</p>
+
+                                </div>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>country</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>String</p>
+
+                                </div>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>phone</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>String</p>
+
+                                </div>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>address</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>String</p>
+
+                                </div>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:FC3PAM21AssistsViewController19initLocationManagerFT_T_"></a>
+                    <a name="//apple_ref/swift/Method/initLocationManager()" class="dashAnchor"></a>
+                    <a class="token" href="#/s:FC3PAM21AssistsViewController19initLocationManagerFT_T_">initLocationManager()</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Inicia la consulta para obtener la geolocalizacion del usuario.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="kd">func</span> <span class="nf">initLocationManager</span><span class="p">()</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:FC3PAM21AssistsViewController9showAlertFTSS7messageSS_T_"></a>
+                    <a name="//apple_ref/swift/Method/showAlert(_:message:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:FC3PAM21AssistsViewController9showAlertFTSS7messageSS_T_">showAlert(_:message:)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Metodo que permite mostrar una alerta en general.</p>
+
+<ul>
+<li>Parameters:
+
+<ul>
+<li>title: String</li>
+<li>message: String</li>
+</ul></li>
+</ul>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="kd">func</span> <span class="nf">showAlert</span><span class="p">(</span><span class="nv">title</span><span class="p">:</span><span class="kt">String</span><span class="p">,</span> <span class="nv">message</span><span class="p">:</span><span class="kt">String</span><span class="p">)</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div>
+                        <h4>Parameters</h4>
+                        <table class="graybox">
+                          <tbody>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>title</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>String</p>
+
+                                </div>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>message</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>String</p>
+
+                                </div>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:FC3PAM21AssistsViewController18showEmergencyAlertFT_T_"></a>
+                    <a name="//apple_ref/swift/Method/showEmergencyAlert()" class="dashAnchor"></a>
+                    <a class="token" href="#/s:FC3PAM21AssistsViewController18showEmergencyAlertFT_T_">showEmergencyAlert()</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Metodo que muestra una alerta consultando si es una emergencia o no.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="kd">func</span> <span class="nf">showEmergencyAlert</span><span class="p">()</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:FC3PAM21AssistsViewController22showMoreInfoInputAlertFT_T_"></a>
+                    <a name="//apple_ref/swift/Method/showMoreInfoInputAlert()" class="dashAnchor"></a>
+                    <a class="token" href="#/s:FC3PAM21AssistsViewController22showMoreInfoInputAlertFT_T_">showMoreInfoInputAlert()</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Metodo que muestra una alerta pidiendo mas informacion.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="kd">func</span> <span class="nf">showMoreInfoInputAlert</span><span class="p">()</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:FC3PAM21AssistsViewController11showLoadingFT_T_"></a>
+                    <a name="//apple_ref/swift/Method/showLoading()" class="dashAnchor"></a>
+                    <a class="token" href="#/s:FC3PAM21AssistsViewController11showLoadingFT_T_">showLoading()</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Muestra la ventana de cargando general.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="kd">func</span> <span class="nf">showLoading</span><span class="p">()</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:FC3PAM21AssistsViewController11hideLoadingFT_T_"></a>
+                    <a name="//apple_ref/swift/Method/hideLoading()" class="dashAnchor"></a>
+                    <a class="token" href="#/s:FC3PAM21AssistsViewController11hideLoadingFT_T_">hideLoading()</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Oculta la ventana de cargando.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="kd">func</span> <span class="nf">hideLoading</span><span class="p">()</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:FC3PAM21AssistsViewController15checkItemsTableFT_T_"></a>
+                    <a name="//apple_ref/swift/Method/checkItemsTable()" class="dashAnchor"></a>
+                    <a class="token" href="#/s:FC3PAM21AssistsViewController15checkItemsTableFT_T_">checkItemsTable()</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Metodo que revisa si el array del modelo Asistencia tiene datos. Si tiene muestra la tabla, de lo contrario no la muestra</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="kd">func</span> <span class="nf">checkItemsTable</span><span class="p">()</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:FC3PAM21AssistsViewController15prepareForSegueFTCSo17UIStoryboardSegue6senderGSqPs9AnyObject___T_"></a>
+                    <a name="//apple_ref/swift/Method/prepareForSegue(_:sender:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:FC3PAM21AssistsViewController15prepareForSegueFTCSo17UIStoryboardSegue6senderGSqPs9AnyObject___T_">prepareForSegue(_:sender:)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Metodo que permite el envio y proceso de datos a traves de los <q>segue</q></p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="k">override</span> <span class="kd">func</span> <span class="nf">prepareForSegue</span><span class="p">(</span><span class="nv">segue</span><span class="p">:</span> <span class="kt">UIStoryboardSegue</span><span class="p">,</span> <span class="nv">sender</span><span class="p">:</span> <span class="kt">AnyObject</span><span class="p">?)</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+              </ul>
+            </div>
+            <div class="task-group">
+              <div class="task-name-container">
+                <a name="/CLocation%20Delegate"></a>
+                <a name="//apple_ref/swift/Section/CLocation Delegate" class="dashAnchor"></a>
+                <a href="#/CLocation%20Delegate">
+                  <h3 class="section-name">CLocation Delegate</h3>
+                </a>
+              </div>
+              <ul>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:FC3PAM21AssistsViewController15locationManagerFTCSo17CLLocationManager18didUpdateLocationsGSaCSo10CLLocation__T_"></a>
+                    <a name="//apple_ref/swift/Method/locationManager(_:didUpdateLocations:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:FC3PAM21AssistsViewController15locationManagerFTCSo17CLLocationManager18didUpdateLocationsGSaCSo10CLLocation__T_">locationManager(_:didUpdateLocations:)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Al ejecutarse obtiene las coordenadas del usuario y ejecuta el metodo sendAssistToSOANNG</p>
+
+<ul>
+<li>Parameters:
+
+<ul>
+<li>manager: Informacion del tipo CLLocationManager</li>
+<li>locations: Array del tipo CLLocation (Entrega las coordenadas)</li>
+</ul></li>
+</ul>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="kd">func</span> <span class="nf">locationManager</span><span class="p">(</span><span class="nv">manager</span><span class="p">:</span> <span class="kt">CLLocationManager</span><span class="p">,</span> <span class="n">didUpdateLocations</span> <span class="nv">locations</span><span class="p">:</span> <span class="p">[</span><span class="kt">CLLocation</span><span class="p">])</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div>
+                        <h4>Parameters</h4>
+                        <table class="graybox">
+                          <tbody>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>manager</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>Informacion del tipo CLLocationManager</p>
+
+                                </div>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>locations</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>Array del tipo CLLocation (Entrega las coordenadas)</p>
+
+                                </div>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:FC3PAM21AssistsViewController15locationManagerFTCSo17CLLocationManager28didChangeAuthorizationStatusOSC21CLAuthorizationStatus_T_"></a>
+                    <a name="//apple_ref/swift/Method/locationManager(_:didChangeAuthorizationStatus:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:FC3PAM21AssistsViewController15locationManagerFTCSo17CLLocationManager28didChangeAuthorizationStatusOSC21CLAuthorizationStatus_T_">locationManager(_:didChangeAuthorizationStatus:)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Se ejecuta al existir un cambio en los permisos para la obtencion de coordenadas</p>
+
+<ul>
+<li>Parameters:
+
+<ul>
+<li>manager: Informacion del tipo CLLocationManager</li>
+<li>status: Informacion del tipo CLAuthorizationStatus (Tiene una gama de opciones como: .Restricted, .Denied, .NotDetermined, etc)</li>
+</ul></li>
+</ul>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="kd">func</span> <span class="nf">locationManager</span><span class="p">(</span><span class="nv">manager</span><span class="p">:</span> <span class="kt">CLLocationManager</span><span class="p">,</span> <span class="n">didChangeAuthorizationStatus</span> <span class="nv">status</span><span class="p">:</span> <span class="kt">CLAuthorizationStatus</span><span class="p">)</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div>
+                        <h4>Parameters</h4>
+                        <table class="graybox">
+                          <tbody>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>manager</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>Informacion del tipo CLLocationManager</p>
+
+                                </div>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>status</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>Informacion del tipo CLAuthorizationStatus (Tiene una gama de opciones como: .Restricted, .Denied, .NotDetermined, etc)</p>
+
+                                </div>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:FC3PAM21AssistsViewController15locationManagerFTCSo17CLLocationManager16didFailWithErrorCSo7NSError_T_"></a>
+                    <a name="//apple_ref/swift/Method/locationManager(_:didFailWithError:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:FC3PAM21AssistsViewController15locationManagerFTCSo17CLLocationManager16didFailWithErrorCSo7NSError_T_">locationManager(_:didFailWithError:)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Metodo que se ejecuta cuando hay un error en la solicitud de coordenadas</p>
+
+<ul>
+<li>Parameters:
+
+<ul>
+<li>manager: Informacion del tipo CLLocationManager</li>
+<li>error: Informacion del tipo NSError</li>
+</ul></li>
+</ul>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="kd">func</span> <span class="nf">locationManager</span><span class="p">(</span><span class="nv">manager</span><span class="p">:</span> <span class="kt">CLLocationManager</span><span class="p">,</span> <span class="n">didFailWithError</span> <span class="nv">error</span><span class="p">:</span> <span class="kt">NSError</span><span class="p">)</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div>
+                        <h4>Parameters</h4>
+                        <table class="graybox">
+                          <tbody>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>manager</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>Informacion del tipo CLLocationManager</p>
+
+                                </div>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>error</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>Informacion del tipo NSError</p>
+
+                                </div>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+              </ul>
+            </div>
+            <div class="task-group">
+              <div class="task-name-container">
+                <a name="/TableView%20Delegate"></a>
+                <a name="//apple_ref/swift/Section/TableView Delegate" class="dashAnchor"></a>
+                <a href="#/TableView%20Delegate">
+                  <h3 class="section-name">TableView Delegate</h3>
+                </a>
+              </div>
+              <ul>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:FC3PAM21AssistsViewController9tableViewFTCSo11UITableView23didSelectRowAtIndexPathCSo11NSIndexPath_T_"></a>
+                    <a name="//apple_ref/swift/Method/tableView(_:didSelectRowAtIndexPath:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:FC3PAM21AssistsViewController9tableViewFTCSo11UITableView23didSelectRowAtIndexPathCSo11NSIndexPath_T_">tableView(_:didSelectRowAtIndexPath:)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Metodo que se ejecuta cuando presionas una celda de la tabla.</p>
+
+<p>Al pinchar la celda envia al usuario a la siguiente vista.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="kd">func</span> <span class="nf">tableView</span><span class="p">(</span><span class="nv">tableView</span><span class="p">:</span> <span class="kt">UITableView</span><span class="p">,</span> <span class="n">didSelectRowAtIndexPath</span> <span class="nv">indexPath</span><span class="p">:</span> <span class="kt">NSIndexPath</span><span class="p">)</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+              </ul>
+            </div>
+          </section>
+        </section>
+        <section id="footer">
+          <p>&copy; 2016 <a class="link" href="" target="_blank" rel="external"></a>. All rights reserved. (Last updated: 2016-09-22)</p>
+          <p>Generated by <a class="link" href="https://github.com/realm/jazzy" target="_blank" rel="external">jazzy ♪♫ v0.7.2</a>, a <a class="link" href="http://realm.io" target="_blank" rel="external">Realm</a> project.</p>
+        </section>
+      </article>
+    </div>
+  </body>
+</div>
+</html>

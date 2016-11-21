@@ -1,0 +1,200 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "Utilities"
+provides-nominal:
+- "C3PAM9Utilities"
+provides-member:
+- ["C3PAM9Utilities", ""]
+provides-dynamic-lookup:
+depends-top-level:
+- "Bool"
+- "String"
+- !private "Reachability"
+- !private "BooleanLiteralType"
+- "NSUserDefaults"
+- !private "StringLiteralType"
+- "Utilities"
+- !private "NSDateFormatter"
+- !private "!="
+depends-member:
+- !private ["Ps9AnyObject", "NSDateFormatter"]
+- ["Ps9AnyObject", "NSUserDefaults"]
+- !private ["Ps9AnyObject", "Reachability"]
+- !private ["Ps9AnyObject", "boolForKey"]
+- !private ["Ps9AnyObject", "dateFormat"]
+- !private ["Ps9AnyObject", "dateFromString"]
+- !private ["Ps9AnyObject", "init"]
+- !private ["Ps9AnyObject", "isConnectedToNetwork"]
+- !private ["Ps9AnyObject", "prefs"]
+- ["Ps9AnyObject", "standardUserDefaults"]
+- !private ["Ps9AnyObject", "stringFromDate"]
+- ["Ps9AnyObject", ""]
+- !private ["Sb", "_getBuiltinLogicValue"]
+- !private ["Sb", "deinit"]
+- !private ["Ps25BooleanLiteralConvertible", "_getBuiltinLogicValue"]
+- !private ["Ps11BooleanType", "_getBuiltinLogicValue"]
+- !private ["Ps11CVarArgType", "boolForKey"]
+- !private ["Ps11CVarArgType", "dateFormat"]
+- !private ["Ps11CVarArgType", "dateFromString"]
+- !private ["Ps11CVarArgType", "init"]
+- ["Ps11CVarArgType", "standardUserDefaults"]
+- !private ["Ps11CVarArgType", "stringFromDate"]
+- !private ["Ps28CustomDebugStringConvertible", "boolForKey"]
+- !private ["Ps28CustomDebugStringConvertible", "dateFormat"]
+- !private ["Ps28CustomDebugStringConvertible", "dateFromString"]
+- !private ["Ps28CustomDebugStringConvertible", "init"]
+- ["Ps28CustomDebugStringConvertible", "standardUserDefaults"]
+- !private ["Ps28CustomDebugStringConvertible", "stringFromDate"]
+- !private ["Ps23CustomStringConvertible", "_getBuiltinLogicValue"]
+- !private ["Ps23CustomStringConvertible", "boolForKey"]
+- !private ["Ps23CustomStringConvertible", "dateFormat"]
+- !private ["Ps23CustomStringConvertible", "dateFromString"]
+- !private ["Ps23CustomStringConvertible", "init"]
+- ["Ps23CustomStringConvertible", "standardUserDefaults"]
+- !private ["Ps23CustomStringConvertible", "stringFromDate"]
+- !private ["Ps9Equatable", "_getBuiltinLogicValue"]
+- !private ["Ps9Equatable", "boolForKey"]
+- !private ["Ps9Equatable", "dateFormat"]
+- !private ["Ps9Equatable", "dateFromString"]
+- !private ["Ps9Equatable", "init"]
+- ["Ps9Equatable", "standardUserDefaults"]
+- !private ["Ps9Equatable", "stringFromDate"]
+- !private ["Ps8Hashable", "_getBuiltinLogicValue"]
+- !private ["Ps8Hashable", "boolForKey"]
+- !private ["Ps8Hashable", "dateFormat"]
+- !private ["Ps8Hashable", "dateFromString"]
+- !private ["Ps8Hashable", "init"]
+- ["Ps8Hashable", "standardUserDefaults"]
+- !private ["Ps8Hashable", "stringFromDate"]
+- !private ["SQ", "deinit"]
+- !private ["PSo8NSCoding", "dateFormat"]
+- !private ["PSo8NSCoding", "dateFromString"]
+- !private ["PSo8NSCoding", "init"]
+- !private ["PSo8NSCoding", "stringFromDate"]
+- !private ["PSo9NSCopying", "dateFormat"]
+- !private ["PSo9NSCopying", "dateFromString"]
+- !private ["PSo9NSCopying", "init"]
+- !private ["PSo9NSCopying", "stringFromDate"]
+- !private ["CSo15NSDateFormatter", "dateFormat"]
+- !private ["CSo15NSDateFormatter", "dateFromString"]
+- !private ["CSo15NSDateFormatter", "init"]
+- !private ["CSo15NSDateFormatter", "stringFromDate"]
+- !private ["CSo11NSFormatter", "dateFormat"]
+- !private ["CSo11NSFormatter", "dateFromString"]
+- !private ["CSo11NSFormatter", "init"]
+- !private ["CSo11NSFormatter", "stringFromDate"]
+- !private ["CSo8NSObject", "boolForKey"]
+- !private ["CSo8NSObject", "dateFormat"]
+- !private ["CSo8NSObject", "dateFromString"]
+- !private ["CSo8NSObject", "init"]
+- ["CSo8NSObject", "standardUserDefaults"]
+- !private ["CSo8NSObject", "stringFromDate"]
+- !private ["PSo16NSObjectProtocol", "boolForKey"]
+- !private ["PSo16NSObjectProtocol", "dateFormat"]
+- !private ["PSo16NSObjectProtocol", "dateFromString"]
+- !private ["PSo16NSObjectProtocol", "init"]
+- ["PSo16NSObjectProtocol", "standardUserDefaults"]
+- !private ["PSo16NSObjectProtocol", "stringFromDate"]
+- !private ["CSo14NSUserDefaults", "boolForKey"]
+- ["CSo14NSUserDefaults", "standardUserDefaults"]
+- !private ["Sq", "deinit"]
+- !private ["C3PAM12Reachability", "isConnectedToNetwork"]
+- ["C3PAM9Utilities", "Bool"]
+- !private ["C3PAM9Utilities", "NSDateFormatter"]
+- ["C3PAM9Utilities", "NSUserDefaults"]
+- !private ["C3PAM9Utilities", "Reachability"]
+- ["C3PAM9Utilities", "String"]
+- ["C3PAM9Utilities", "checkIsOnline"]
+- ["C3PAM9Utilities", "checkUser"]
+- ["C3PAM9Utilities", "convertDateFormater"]
+- ["C3PAM9Utilities", "deinit"]
+- ["C3PAM9Utilities", "init"]
+- ["C3PAM9Utilities", "prefs"]
+- !private ["Ps33_BuiltinBooleanLiteralConvertible", "_getBuiltinLogicValue"]
+- !private ["Ps21_ObjectiveCBridgeable", "_getBuiltinLogicValue"]
+- !private ["Vs26_OptionalNilComparisonType", "deinit"]
+- !private ["Ps12_Reflectable", "_getBuiltinLogicValue"]
+depends-nominal:
+- "Ps9AnyObject"
+- !private "Sb"
+- !private "Ps25BooleanLiteralConvertible"
+- !private "Ps11BooleanType"
+- "Ps11CVarArgType"
+- "Ps28CustomDebugStringConvertible"
+- "Ps23CustomStringConvertible"
+- "Ps9Equatable"
+- "Ps8Hashable"
+- !private "SQ"
+- !private "PSo8NSCoding"
+- !private "PSo9NSCopying"
+- !private "CSo15NSDateFormatter"
+- !private "CSo11NSFormatter"
+- "CSo8NSObject"
+- "PSo16NSObjectProtocol"
+- "CSo14NSUserDefaults"
+- !private "Sq"
+- !private "C3PAM12Reachability"
+- "C3PAM9Utilities"
+- !private "Ps33_BuiltinBooleanLiteralConvertible"
+- !private "Ps21_ObjectiveCBridgeable"
+- !private "Vs26_OptionalNilComparisonType"
+- !private "Ps12_Reflectable"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Swift.swiftmodule"
+- "/Users/franzzite/Documents/Xcode Projects/PAM/PAM/PAM-Bridging-Header.h"
+- "/Users/franzzite/Documents/Xcode Projects/PAM/PAM/MGSwipeTableCell/MGSwipeTableCell.h"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreImage.swiftmodule"
+- "/Users/franzzite/Documents/Xcode Projects/PAM/PAM/MGSwipeTableCell/MGSwipeButton.h"
+- "/Users/franzzite/Documents/Xcode Projects/PAM/PAM/SWRevealViewController.h"
+- "/Users/franzzite/Documents/Xcode Projects/PAM/Pods/Headers/Public/GoogleMaps/GoogleMapsBase/GMSCoordinateBounds.h"
+- "/Users/franzzite/Documents/Xcode Projects/PAM/Pods/Headers/Public/GoogleMaps/GoogleMapsBase/GMSCompatabilityMacros.h"
+- "/Users/franzzite/Documents/Xcode Projects/PAM/Pods/GoogleMaps/Subspecs/Base/Frameworks/GoogleMapsBase.framework/Headers/GoogleMapsBase.h"
+- "/Users/franzzite/Documents/Xcode Projects/PAM/Pods/GoogleMaps/Subspecs/Base/Frameworks/GoogleMapsBase.framework/Modules/module.modulemap"
+- "/Users/franzzite/Documents/Xcode Projects/PAM/Pods/Headers/Public/GoogleMaps/GoogleMaps/GMSURLTileLayer.h"
+- "/Users/franzzite/Documents/Xcode Projects/PAM/Pods/Headers/Public/GoogleMaps/GoogleMaps/GMSTileLayer.h"
+- "/Users/franzzite/Documents/Xcode Projects/PAM/Pods/Headers/Public/GoogleMaps/GoogleMaps/GMSSyncTileLayer.h"
+- "/Users/franzzite/Documents/Xcode Projects/PAM/Pods/Headers/Public/GoogleMaps/GoogleMaps/GMSServices.h"
+- "/Users/franzzite/Documents/Xcode Projects/PAM/Pods/Headers/Public/GoogleMaps/GoogleMaps/GMSPolyline.h"
+- "/Users/franzzite/Documents/Xcode Projects/PAM/Pods/Headers/Public/GoogleMaps/GoogleMaps/GMSPolygon.h"
+- "/Users/franzzite/Documents/Xcode Projects/PAM/Pods/Headers/Public/GoogleMaps/GoogleMaps/GMSPanoramaView.h"
+- "/Users/franzzite/Documents/Xcode Projects/PAM/Pods/Headers/Public/GoogleMaps/GoogleMaps/GMSPanoramaService.h"
+- "/Users/franzzite/Documents/Xcode Projects/PAM/Pods/Headers/Public/GoogleMaps/GoogleMaps/GMSPanoramaLink.h"
+- "/Users/franzzite/Documents/Xcode Projects/PAM/Pods/Headers/Public/GoogleMaps/GoogleMaps/GMSPanoramaLayer.h"
+- "/Users/franzzite/Documents/Xcode Projects/PAM/Pods/Headers/Public/GoogleMaps/GoogleMaps/GMSPanoramaCameraUpdate.h"
+- "/Users/franzzite/Documents/Xcode Projects/PAM/Pods/Headers/Public/GoogleMaps/GoogleMaps/GMSPanoramaCamera.h"
+- "/Users/franzzite/Documents/Xcode Projects/PAM/Pods/Headers/Public/GoogleMaps/GoogleMaps/GMSPanorama.h"
+- "/Users/franzzite/Documents/Xcode Projects/PAM/Pods/Headers/Public/GoogleMaps/GoogleMaps/GMSOrientation.h"
+- "/Users/franzzite/Documents/Xcode Projects/PAM/Pods/Headers/Public/GoogleMaps/GoogleMaps/GMSMutablePath.h"
+- "/Users/franzzite/Documents/Xcode Projects/PAM/Pods/Headers/Public/GoogleMaps/GoogleMaps/GMSMarkerLayer.h"
+- "/Users/franzzite/Documents/Xcode Projects/PAM/Pods/Headers/Public/GoogleMaps/GoogleMaps/GMSMarker.h"
+- "/Users/franzzite/Documents/Xcode Projects/PAM/Pods/Headers/Public/GoogleMaps/GoogleMaps/GMSUISettings.h"
+- "/Users/franzzite/Documents/Xcode Projects/PAM/Pods/Headers/Public/GoogleMaps/GoogleMaps/GMSMapView.h"
+- "/Users/franzzite/Documents/Xcode Projects/PAM/Pods/Headers/Public/GoogleMaps/GoogleMaps/GMSMapView+Animation.h"
+- "/Users/franzzite/Documents/Xcode Projects/PAM/Pods/Headers/Public/GoogleMaps/GoogleMaps/GMSMapLayer.h"
+- "/Users/franzzite/Documents/Xcode Projects/PAM/Pods/Headers/Public/GoogleMaps/GoogleMaps/GMSIndoorLevel.h"
+- "/Users/franzzite/Documents/Xcode Projects/PAM/Pods/Headers/Public/GoogleMaps/GoogleMaps/GMSIndoorDisplay.h"
+- "/Users/franzzite/Documents/Xcode Projects/PAM/Pods/Headers/Public/GoogleMaps/GoogleMaps/GMSIndoorBuilding.h"
+- "/Users/franzzite/Documents/Xcode Projects/PAM/Pods/Headers/Public/GoogleMaps/GoogleMaps/GMSGroundOverlay.h"
+- "/Users/franzzite/Documents/Xcode Projects/PAM/Pods/Headers/Public/GoogleMaps/GoogleMaps/GMSPath.h"
+- "/Users/franzzite/Documents/Xcode Projects/PAM/Pods/Headers/Public/GoogleMaps/GoogleMaps/GMSGeometryUtils.h"
+- "/Users/franzzite/Documents/Xcode Projects/PAM/Pods/Headers/Public/GoogleMaps/GoogleMaps/GMSGeocoder.h"
+- "/Users/franzzite/Documents/Xcode Projects/PAM/Pods/Headers/Public/GoogleMaps/GoogleMaps/GMSProjection.h"
+- "/Users/franzzite/Documents/Xcode Projects/PAM/Pods/Headers/Public/GoogleMaps/GoogleMaps/GMSCoordinateBounds+GoogleMaps.h"
+- "/Users/franzzite/Documents/Xcode Projects/PAM/Pods/Headers/Public/GoogleMaps/GoogleMaps/GMSOverlay.h"
+- "/Users/franzzite/Documents/Xcode Projects/PAM/Pods/Headers/Public/GoogleMaps/GoogleMaps/GMSCircle.h"
+- "/Users/franzzite/Documents/Xcode Projects/PAM/Pods/Headers/Public/GoogleMaps/GoogleMaps/GMSCameraUpdate.h"
+- "/Users/franzzite/Documents/Xcode Projects/PAM/Pods/Headers/Public/GoogleMaps/GoogleMaps/GMSCameraPosition.h"
+- "/Users/franzzite/Documents/Xcode Projects/PAM/Pods/Headers/Public/GoogleMaps/GoogleMaps/GMSCALayer.h"
+- "/Users/franzzite/Documents/Xcode Projects/PAM/Pods/Headers/Public/GoogleMaps/GoogleMaps/GMSDeprecationMacros.h"
+- "/Users/franzzite/Documents/Xcode Projects/PAM/Pods/Headers/Public/GoogleMaps/GoogleMaps/GMSAddress.h"
+- "/Users/franzzite/Documents/Xcode Projects/PAM/Pods/GoogleMaps/Subspecs/Maps/Frameworks/GoogleMaps.framework/Headers/GoogleMaps.h"
+- "/Users/franzzite/Documents/Xcode Projects/PAM/Pods/GoogleMaps/Subspecs/Maps/Frameworks/GoogleMaps.framework/Modules/module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreLocation.swiftmodule"
+interface-hash: "ec6413dc1c3dd1254683a1d4b3fd2309"

@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="10117" systemVersion="15E65" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <mutableArray key="Poppins-Light.ttf">
+            <string>Poppins-Light</string>
+        </mutableArray>
+        <mutableArray key="Poppins-Medium.ttf">
+            <string>Poppins-Medium</string>
+        </mutableArray>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="AssistanceCell" rowHeight="62" id="mKY-fc-4Ne" customClass="AssistanceViewCell" customModule="PAM" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="62"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="mKY-fc-4Ne" id="szD-JZ-0AS">
+                <rect key="frame" x="0.0" y="0.0" width="320" height="61"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Disponibles: 5" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="lzh-Yy-mOy">
+                        <rect key="frame" x="15" y="35" width="279" height="20"/>
+                        <fontDescription key="fontDescription" name="Poppins-Light" family="Poppins" pointSize="12"/>
+                        <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" verticalCompressionResistancePriority="749" text="Nombre Asistencia" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="iGA-r0-v1a">
+                        <rect key="frame" x="15" y="12" width="279" height="22"/>
+                        <constraints>
+                            <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="21" id="DuL-z6-Smc"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" name="Poppins-Medium" family="Poppins" pointSize="16"/>
+                        <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="lzh-Yy-mOy" firstAttribute="top" secondItem="iGA-r0-v1a" secondAttribute="bottom" constant="1" id="5Qn-L7-W0i"/>
+                    <constraint firstAttribute="trailingMargin" secondItem="iGA-r0-v1a" secondAttribute="trailing" constant="18" id="7ib-1Y-OKa"/>
+                    <constraint firstAttribute="bottomMargin" secondItem="lzh-Yy-mOy" secondAttribute="bottom" constant="-2" id="GM3-zV-UFv"/>
+                    <constraint firstItem="iGA-r0-v1a" firstAttribute="top" secondItem="szD-JZ-0AS" secondAttribute="topMargin" constant="4" id="LKw-la-02v"/>
+                    <constraint firstItem="iGA-r0-v1a" firstAttribute="leading" secondItem="szD-JZ-0AS" secondAttribute="leadingMargin" constant="7" id="hyA-Ms-5cY"/>
+                    <constraint firstItem="lzh-Yy-mOy" firstAttribute="leading" secondItem="iGA-r0-v1a" secondAttribute="leading" id="qTP-bn-bET"/>
+                    <constraint firstItem="iGA-r0-v1a" firstAttribute="trailing" secondItem="lzh-Yy-mOy" secondAttribute="trailing" id="yCg-b0-b0K"/>
+                </constraints>
+            </tableViewCellContentView>
+            <connections>
+                <outlet property="name" destination="iGA-r0-v1a" id="ShH-GT-ZUE"/>
+                <outlet property="quantity" destination="lzh-Yy-mOy" id="jHx-ug-31r"/>
+            </connections>
+            <point key="canvasLocation" x="388" y="295"/>
+        </tableViewCell>
+    </objects>
+</document>

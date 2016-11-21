@@ -1,0 +1,38 @@
+PODS:
+  - Alamofire (3.4.1)
+  - CRToast (0.0.9)
+  - GoogleMaps (2.0.1):
+    - GoogleMaps/Maps (= 2.0.1)
+  - GoogleMaps/Base (2.0.1)
+  - GoogleMaps/Maps (2.0.1):
+    - GoogleMaps/Base (= 2.0.1)
+  - IQKeyboardManagerSwift (4.0.4)
+  - MBProgressHUD (0.9.2)
+  - Socket.IO-Client-Swift (6.1.6)
+  - SwiftyJSON (2.3.2)
+  - UIScrollView-InfiniteScroll (0.9.1)
+
+DEPENDENCIES:
+  - Alamofire
+  - CRToast (~> 0.0.7)
+  - GoogleMaps
+  - IQKeyboardManagerSwift
+  - MBProgressHUD (~> 0.9.1)
+  - Socket.IO-Client-Swift
+  - SwiftyJSON
+  - UIScrollView-InfiniteScroll
+
+SPEC CHECKSUMS:
+  Alamofire: 01a82e2f6c0f860ade35534c8dd88be61bdef40c
+  CRToast: 5a78c22b921c5ed3487488af605bc403a9c92fed
+  GoogleMaps: f09da64fc987c1aa29394567c3cab5a3df83c402
+  IQKeyboardManagerSwift: e0964d04d6a29b71016fd346dca13ecb80a2823a
+  MBProgressHUD: 1569cf7ace17a8bac47aabfbb8580a49690386d1
+  Socket.IO-Client-Swift: 5eddbfafd3c035a77d365d5b58da93cc488af11f
+  SwiftyJSON: 04ccea08915aa0109039157c7974cf0298da292a
+  UIScrollView-InfiniteScroll: 14e204c50ca4040467e1cbfa141dad7a18919b56
+
+
+PODFILE CHECKSUM: 59107005adc9469707056ac8e99c647473dc4139
+
+COCOAPODS: 1.0.1

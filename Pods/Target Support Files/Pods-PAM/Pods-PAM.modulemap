@@ -1,0 +1,6 @@
+framework module Pods_PAM {
+  umbrella header "Pods-PAM-umbrella.h"
+
+  export *
+  module * { export * }
+}

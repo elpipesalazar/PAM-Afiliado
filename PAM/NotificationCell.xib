@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="10117" systemVersion="15E65" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <mutableArray key="Poppins-Medium.ttf">
+            <string>Poppins-Medium</string>
+        </mutableArray>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="none" indentationWidth="10" reuseIdentifier="NotificationCell" rowHeight="56" id="jW2-7U-9MT" customClass="NotificationViewCell" customModule="PAM" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="56"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="jW2-7U-9MT" id="gug-LT-Qhq">
+                <rect key="frame" x="0.0" y="0.0" width="320" height="55"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Notificacion" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="eIe-CB-XPE">
+                        <rect key="frame" x="55" y="15" width="253" height="25"/>
+                        <constraints>
+                            <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="25" id="tHe-Al-zAk"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" name="Poppins-Medium" family="Poppins" pointSize="13"/>
+                        <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Good" translatesAutoresizingMaskIntoConstraints="NO" id="DVq-vt-l9P">
+                        <rect key="frame" x="8" y="11" width="39" height="39"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="39" id="vzW-ju-FB0"/>
+                            <constraint firstAttribute="width" constant="39" id="wO9-K6-6Jo"/>
+                        </constraints>
+                    </imageView>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="eIe-CB-XPE" firstAttribute="leading" secondItem="DVq-vt-l9P" secondAttribute="trailing" constant="8" id="1lw-5N-93m"/>
+                    <constraint firstAttribute="trailingMargin" secondItem="eIe-CB-XPE" secondAttribute="trailing" constant="4" id="2Jj-x4-jtZ"/>
+                    <constraint firstItem="eIe-CB-XPE" firstAttribute="leading" secondItem="DVq-vt-l9P" secondAttribute="trailing" constant="8" id="KpE-F7-Wn8"/>
+                    <constraint firstItem="eIe-CB-XPE" firstAttribute="centerY" secondItem="gug-LT-Qhq" secondAttribute="centerY" id="L9T-0v-3Ga"/>
+                    <constraint firstItem="eIe-CB-XPE" firstAttribute="centerY" secondItem="gug-LT-Qhq" secondAttribute="centerY" id="YT9-du-YCp"/>
+                    <constraint firstItem="DVq-vt-l9P" firstAttribute="leading" secondItem="gug-LT-Qhq" secondAttribute="leading" constant="8" id="cAH-Ls-NlA"/>
+                    <constraint firstItem="eIe-CB-XPE" firstAttribute="top" secondItem="gug-LT-Qhq" secondAttribute="topMargin" constant="7" id="cRW-p5-Q6x"/>
+                    <constraint firstItem="eIe-CB-XPE" firstAttribute="centerX" secondItem="gug-LT-Qhq" secondAttribute="centerX" id="pMU-Ie-GSF"/>
+                    <constraint firstItem="DVq-vt-l9P" firstAttribute="top" secondItem="gug-LT-Qhq" secondAttribute="top" constant="11" id="rPG-5g-RQv"/>
+                    <constraint firstItem="eIe-CB-XPE" firstAttribute="leading" secondItem="gug-LT-Qhq" secondAttribute="leadingMargin" constant="5" id="rSE-vI-Uvz"/>
+                    <constraint firstAttribute="bottomMargin" secondItem="eIe-CB-XPE" secondAttribute="bottom" constant="7" id="szb-rQ-d6v"/>
+                </constraints>
+                <variation key="default">
+                    <mask key="constraints">
+                        <exclude reference="L9T-0v-3Ga"/>
+                        <exclude reference="YT9-du-YCp"/>
+                        <exclude reference="pMU-Ie-GSF"/>
+                        <exclude reference="rSE-vI-Uvz"/>
+                    </mask>
+                </variation>
+            </tableViewCellContentView>
+            <connections>
+                <outlet property="icoNotification" destination="DVq-vt-l9P" id="1li-2H-45h"/>
+                <outlet property="notificationText" destination="eIe-CB-XPE" id="txZ-iA-zvu"/>
+            </connections>
+            <point key="canvasLocation" x="602" y="265"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="Good" width="64" height="64"/>
+    </resources>
+</document>
